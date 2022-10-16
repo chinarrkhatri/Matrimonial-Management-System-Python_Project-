@@ -1,0 +1,228 @@
+
+C:\Users\china\Desktop>sqlplus system/6969
+
+SQL*Plus: Release 11.2.0.2.0 Production on Sun Oct 9 01:18:26 2022
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+
+SQL> create table info(userid number(3),
+  2  name varchar2(20),
+  3  dob date(),
+  4  birth_place varchar2(10),
+  5  _place varchar2(10),;
+dob date(),
+        *
+ERROR at line 3:
+ORA-00907: missing right parenthesis
+
+
+SQL> create table info(userid number(3),
+  2  name varchar2(20),
+  3  dob date(),
+  4  birth_place varchar2(20),
+  5  current_place varchar2(20),
+  6  gender varchar2(10)
+  7  primary key (userid));
+dob date(),
+        *
+ERROR at line 3:
+ORA-00907: missing right parenthesis
+
+
+SQL> create table info(userid number(3),
+  2  name varchar2(20),
+  3  dob date,
+  4  birth_place varchar2(20),
+  5  current_place varchar2(20),
+  6  gender varchar2(10)
+  7  primary key (userid));
+primary key (userid))
+            *
+ERROR at line 7:
+ORA-00907: missing right parenthesis
+
+
+SQL> create table info(userid number(3),
+  2  name varchar2(20),
+  3  dob date(),
+  4  birth_place varchar2(20),
+  5  current_place varchar2(20),
+  6  gender varchar2(10),
+  7  primary key (userid));
+dob date(),
+        *
+ERROR at line 3:
+ORA-00907: missing right parenthesis
+
+
+SQL> create table info(userid number(3),
+  2  name varchar2(20),
+  3  dob date,
+  4  birth_place varchar2(20),
+  5  current_place varchar2(20),
+  6  gender varchar2(10),
+  7  primary key (userid));
+
+Table created.
+
+SQL> desc info;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ USERID                                    NOT NULL NUMBER(3)
+ NAME                                               VARCHAR2(20)
+ DOB                                                DATE
+ BIRTH_PLACE                                        VARCHAR2(20)
+ CURRENT_PLACE                                      VARCHAR2(20)
+ GENDER                                             VARCHAR2(10)
+
+SQL> insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE'),(111,'Arjun','14-06-1995','MUMBAI','JAIPUR','MALE'),(112,'Armaan','2/11/1995','CHENNAI','KOTA','MALE'),(113,'Arun','27-07-1991','KOLKATA','BARAN','MALE'),(114,'Aum','19-01-1990','KOTA','JHALAWAR','MALE'),(115,'Avi','8/8/1994','BARAN','INDORE','MALE'),(116,'Ayaan','4/3/1996','JHALAWAR','DELHI','MALE'),(117,'Bodhi','28-08-1992','INDORE','MATHURA','MALE'),(118,'Daksh','16-05-1993','DELHI','AGRA','MALE'),(119,'Dev','15-02-1994','MUMBAI','AGRA','MALE'),(120,'Eshaan','14-11-1992','CHENNAI','GAYA','MALE'),(121,'Ishan','21-03-1991','KOLKATA','PATNA','MALE'),(122,'Jahan','3/4/1995','GUWAHATI','CHATTISGARH','MALE'),(123,'Jaiden','29-09-1990','JAIPUR','KOTA','MALE'),(124,'Jay','17-06-1992','KOTA','KOTA','MALE'),(125,'Jiyan','20-05-1991','BARAN','BUNDI','MALE'),(126,'Kabir','16-01-1993','JHALAWAR','DELHI','MALE'),(127,'Kahan','4/8/1999','INDORE','CHANDIGARH','MALE'),(128,'Kailash','30-08-1997','DELHI','BHILWARA','MALE'),(129,'Kaiyen','6/5/1997','MATHURA','UDAIPUR','MALE'),(130,'Kalpen','12/1/1990','AGRA','NOIDA','MALE'),(131,'Karam','16-08-1996','AGRA','JHALANDAR','MALE'),(132,'Karthik','9/5/1990','GAYA','AMRITSAR','MALE'),(133,'Kavish','20-09-1994','PATNA','BANGLORE','MALE'),(134,'Kiaan','14-06-1998','CHATTISGARH','OOTY','MALE'),(135,'Krish','28-01-1998','KOTA','MYSORE','MALE'),(136,'Kriyan','16-08-1990','KOTA','SHIMLA','MALE'),(137,'Laksh','9/1/1997','BUNDI','MANALI','MALE'),(138,'Manav','15-03-1992','DELHI','GUWAHATI','MALE'),(139,'Milan','26-01-1994','CHANDIGARH','AHEMDABAD','MALE'),(140,'Mivan','2/1/1999','BHILWARA','SURAT','MALE'),(141,'Mohan','4/1/1992','UDAIPUR','PANAJI','MALE'),(142,'Moksh','28-07-1991','NOIDA','UJJAIN','MALE'),(143,'Nayan','16-03-1997','JHALANDAR','HYDERABAD','MALE'),(144,'Neeraj','15-12-1990','AMRITSAR','CHANDIGARH','MALE'),(145,'Nikhil','25-03-1997','BANGLORE','BHILWARA','MALE'),(146,'Nirmay','6/11/1995','OOTY','UDAIPUR','MALE'),(147,'Nishan','15-09-1994','MYSORE','NOIDA','MALE'),(148,'Nitin','12/1/1990','SHIMLA','JHALANDAR','MALE'),(149,'Niyam','8/9/1991','MANALI','AMRITSAR','MALE'),(150,'Ohm','2/12/1991','GUWAHATI','BANGLORE','MALE'),(151,'Ovi','21-04-1992','AHEMDABAD','OOTY','MALE'),(152,'Parth','16-05-1998','SURAT','MYSORE','MALE'),(153,'Pavan','22-07-1992','PANAJI','SHIMLA','MALE'),(154,'Priyam','23-12-1990','UJJAIN','MANALI','MALE'),(155,'Rajiv','18-09-1990','HYDERABAD','GUWAHATI','MALE'),(156,'Rajveer','14-09-1997','CHANDIGARH','AHEMDABAD','MALE'),(157,'Revan','7/7/1991','BHILWARA','SURAT','MALE'),(158,'Ridhan','9/5/1991','UDAIPUR','PANAJI','MALE'),(159,'Rishi','9/9/1990','NOIDA','UJJAIN','MALE'),(160,'Rithvik','27-05-1994','JHALANDAR','HYDERABAD','MALE'),(161,'Riyan','24-06-1993','AMRITSAR','CHITTORGARH','MALE'),(162,'Rohan','26-02-1995','BANGLORE','JODHPUR','MALE'),(163,'Rudra','25-08-1993','OOTY','JAISALMER','MALE'),(164,'Sachin','16-04-1999','MYSORE','RANTHAMBORE','MALE'),(165,'Sahil','13-01-1999','SHIMLA','PUSHKAR','MALE'),(166,'Sai','19-05-1993','MANALI','AJMER','MALE'),(167,'Sajan','5/6/1999','GUWAHATI','SAWAI MADHOPUR','MALE'),(168,'Samardh','10/7/1998','AHEMDABAD','KOLKATA','MALE'),(169,'Samay','19-02-1999','SURAT','KOTA','MALE'),(170,'Sanjay','15-08-1997','PANAJI','BARAN','MALE'),(171,'Sayan','11/9/1992','UJJAIN','JHALAWAR','MALE'),(172,'Shaan','25-07-1996','HYDERABAD','INDORE','MALE'),(173,'Shikhar','11/6/1992','CHITTORGARH','DELHI','MALE'),(174,'Siddh','18-04-1999','JODHPUR','MUMBAI','MALE'),(175,'Sohum','27-09-1990','JAISALMER','CHENNAI','MALE'),(176,'Tej','17-07-1992','RANTHAMBORE','KOLKATA','MALE');
+SP2-0027: Input is too long (> 2499 characters) - line ignored
+SQL> insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE');
+insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE')
+                                                                            *
+ERROR at line 1:
+ORA-00933: SQL command not properly ended
+
+
+SQL> insert into info values((101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE'));
+insert into info values((101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE'))
+                            *
+ERROR at line 1:
+ORA-00907: missing right parenthesis
+
+
+SQL> insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE');
+insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE')
+                                                                            *
+ERROR at line 1:
+ORA-00933: SQL command not properly ended
+
+
+SQL> insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE'));
+insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE'),(102,'Aarav','13-05-1993','KOTA','KOTA','MALE'),(103,'Ajay','5/2/1991','BARAN','BARAN','MALE'),(104,'Akash','9/3/1994','JHALAWAR','JHALAWAR','MALE'),(105,'Akhil','26-03-1993','INDORE','INDORE','MALE'),(106,'Akshay','14-08-1997','DELHI','DELHI','MALE'),(107,'Anand','26-04-1999','MUMBAI','MUMBAI','MALE'),(108,'Anil','28-12-1996','CHENNAI','CHENNAI','MALE'),(109,'Ari','27-11-1999','KOLKATA','KOLKATA','MALE'),(110,'Arian','11/11/1990','GUWAHATI','GUWAHATI','MALE'))
+                                                                            *
+ERROR at line 1:
+ORA-00933: SQL command not properly ended
+
+
+SQL> insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE');
+insert into info values(101,'Aaditya','27-01-1994','BUNDI','KOLKATA','MALE')
+                                      *
+ERROR at line 1:
+ORA-01843: not a valid month
+
+
+SQL> insert into info values(101,'Aaditya','27-jan-1994','BUNDI','KOLKATA','MALE');
+
+1 row created.
+
+SQL> insert into info values(102,'Aaditya','27/01/1994','BUNDI','KOLKATA','MALE');
+insert into info values(102,'Aaditya','27/01/1994','BUNDI','KOLKATA','MALE')
+                                      *
+ERROR at line 1:
+ORA-01843: not a valid month
+
+
+SQL> insert into info values(102,'Aaditya','27/jan/1994','BUNDI','KOLKATA','MALE');
+
+1 row created.
+
+SQL> delete from info where userid = 102;
+
+1 row deleted.
+
+SQL> select * from info;
+
+    USERID NAME                 DOB       BIRTH_PLACE
+---------- -------------------- --------- --------------------
+CURRENT_PLACE        GENDER
+-------------------- ----------
+       101 Aaditya              27-JAN-94 BUNDI
+KOLKATA              MALE
+
+
+SQL> set linesize 200;
+SQL> select * from info;
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       101 Aaditya              27-JAN-94 BUNDI                KOLKATA              MALE
+
+SQL> commit;
+
+Commit complete.
+
+SQL> create table details;
+create table details
+                   *
+ERROR at line 1:
+ORA-00906: missing left parenthesis
+
+
+SQL> create table details(dob date,
+  2  age number(3),
+  3  height numer(2,7)
+  4  ,
+  5  mobile_no number(11)
+  6  ,
+  7  colour varchar2(10),
+  8  primary key (mobile_no));
+height numer(2,7)
+            *
+ERROR at line 3:
+ORA-00907: missing right parenthesis
+
+
+SQL> create table details;
+create table details
+                   *
+ERROR at line 1:
+ORA-00906: missing left parenthesis
+
+
+SQL> create table details(dob date,
+  2  age number(3),
+  3  height numer(2,7)
+  4  ,;
+height numer(2,7)
+            *
+ERROR at line 3:
+ORA-00907: missing right parenthesis
+
+
+SQL> create table details(dob date,
+  2  age number(3),
+  3  height number(2,7),
+  4  mobile_no number(11),
+  5  colour varchar2(10),
+  6  primary key (mobile_no));
+
+Table created.
+
+SQL> create table profile(
+  2  mail_id varchar2(20),
+  3  job_profile varchar2(30),
+  4  degree varchar2(10),
+  5  current_place varchar2(20),
+  6  annual_income number(15),
+  7  primary key (mail_id));
+
+Table created.
+
+SQL> create table family_details(
+  2  family_id number(6),
+  3  father_name varchar2(20),
+  4  family_name varchar2(20),
+  5  father_occ varchar2(20),
+  6  family_status varchar2(20),
+  7  primary key (family_id));
+
+Table created.
+
+SQL> commit;
+
+Commit complete.

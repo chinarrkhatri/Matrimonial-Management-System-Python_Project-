@@ -1,0 +1,795 @@
+SQL> insert into profile values('xyz1@gmail.com','Sales','MBA','KOLKATA',10420000);
+
+1 row created.
+
+SQL> insert into profile values('xyz2@gmail.com','Accountant','CA','KOTA',14300000);
+
+1 row created.
+
+SQL> insert into profile values('xyz3@gmail.com','Lawyer','LLB','BARAN',9640000);
+
+1 row created.
+
+SQL> insert into profile values('xyz4@gmail.com','Lawyer','LLB','JHALAWAR',8240000);
+
+1 row created.
+
+SQL> insert into profile values('xyz5@gmail.com','Accountant','CA','INDORE',1390000);
+
+1 row created.
+
+SQL> insert into profile values('xyz6@gmail.com','Doctor','MBBS','DELHI',6400000);
+
+1 row created.
+
+SQL> insert into profile values('xyz7@gmail.com','Sales','MBA','MUMBAI',2250000);
+
+1 row created.
+
+SQL> insert into profile values('xyz8@gmail.com','Sales','MBA','CHENNAI',6490000);
+
+1 row created.
+
+SQL> insert into profile values('xyz9@gmail.com','Accountant','CA','KOLKATA',2230000);
+
+1 row created.
+
+SQL> insert into profile values('xyz10@gmail.com','Software Engineer','Btech','GUWAHATI',5530000);
+
+1 row created.
+
+SQL> insert into profile values('xyz11@gmail.com','Marketing','MBA','JAIPUR',820000);
+
+1 row created.
+
+SQL> insert into profile values('xyz12@gmail.com','Business','MBA','KOTA',8120000);
+
+1 row created.
+
+SQL> insert into profile values('xyz13@gmail.com','Sales','MBA','BARAN',2010000);
+
+1 row created.
+
+SQL> insert into profile values('xyz14@gmail.com','Lawyer','LLB','JHALAWAR',14200000);
+
+1 row created.
+
+SQL> insert into profile values('xyz15@gmail.com','Accountant','CA','INDORE',10500000);
+
+1 row created.
+
+SQL> insert into profile values('xyz16@gmail.com','Marketing','MBA','DELHI',12470000);
+
+1 row created.
+
+SQL> insert into profile values('xyz17@gmail.com','Software Engineer','Btech','MATHURA',10760000);
+
+1 row created.
+
+SQL> insert into profile values('xyz18@gmail.com','Marketing','MBA','AGRA',8790000);
+
+1 row created.
+
+SQL> insert into profile values('xyz19@gmail.com','Lawyer','LLB','AGRA',8820000);
+
+1 row created.
+
+SQL> insert into profile values('xyz20@gmail.com','Software Engineer','Btech','GAYA',13380000);
+
+1 row created.
+
+SQL> insert into profile values('xyz21@gmail.com','Lawyer','LLB','PATNA',10880000);
+
+1 row created.
+
+SQL> insert into profile values('xyz22@gmail.com','Accountant','CA','CHATTISGARH',7090000);
+
+1 row created.
+
+SQL> insert into profile values('xyz23@gmail.com','Sales','MBA','KOTA',4920000);
+
+1 row created.
+
+SQL> insert into profile values('xyz24@gmail.com','Software Engineer','Btech','KOTA',1220000);
+
+1 row created.
+
+SQL> insert into profile values('xyz25@gmail.com','Lawyer','LLB','BUNDI',12100000);
+
+1 row created.
+
+SQL> insert into profile values('xyz26@gmail.com','Business','MBA','DELHI',11150000);
+
+1 row created.
+
+SQL> insert into profile values('xyz27@gmail.com','Business','MBA','CHANDIGARH',530000);
+
+1 row created.
+
+SQL> insert into profile values('xyz28@gmail.com','Business','MBA','BHILWARA',1060000);
+
+1 row created.
+
+SQL> insert into profile values('xyz29@gmail.com','Sales','MBA','UDAIPUR',8550000);
+
+1 row created.
+
+SQL> insert into profile values('xyz30@gmail.com','Lawyer','LLB','NOIDA',6850000);
+
+1 row created.
+
+SQL> insert into profile values('xyz31@gmail.com','Doctor','MBBS','JHALANDAR',12300000);
+
+1 row created.
+
+SQL> insert into profile values('xyz32@gmail.com','Business','MBA','AMRITSAR',12970000);
+
+1 row created.
+
+SQL> insert into profile values('xyz33@gmail.com','Marketing','MBA','BANGLORE',710000);
+
+1 row created.
+
+SQL> insert into profile values('xyz34@gmail.com','Business','MBA','OOTY',7490000);
+
+1 row created.
+
+SQL> insert into profile values('xyz35@gmail.com','Marketing','MBA','MYSORE',14030000);
+
+1 row created.
+
+SQL> insert into profile values('xyz36@gmail.com','Accountant','CA','SHIMLA',2690000);
+
+1 row created.
+
+SQL> insert into profile values('xyz37@gmail.com','Software Engineer','Btech','MANALI',3230000);
+
+1 row created.
+
+SQL> insert into profile values('xyz38@gmail.com','Sales','MBA','GUWAHATI',5950000);
+
+1 row created.
+
+SQL> insert into profile values('xyz39@gmail.com','Marketing','MBA','AHEMDABAD',370000);
+
+1 row created.
+
+SQL> insert into profile values('xyz40@gmail.com','Marketing','MBA','SURAT',8230000);
+
+1 row created.
+
+SQL> insert into profile values('xyz41@gmail.com','Business','MBA','PANAJI',690000);
+
+1 row created.
+
+SQL> insert into profile values('xyz42@gmail.com','Accountant','CA','UJJAIN',4480000);
+
+1 row created.
+
+SQL> insert into profile values('xyz43@gmail.com','Lawyer','LLB','HYDERABAD',5890000);
+
+1 row created.
+
+SQL> insert into profile values('xyz44@gmail.com','Doctor','MBBS','CHANDIGARH',11960000);
+
+1 row created.
+
+SQL> insert into profile values('xyz45@gmail.com','Sales','MBA','BHILWARA',2460000);
+
+1 row created.
+
+SQL> insert into profile values('xyz46@gmail.com','Doctor','MBBS','UDAIPUR',5500000);
+
+1 row created.
+
+SQL> insert into profile values('xyz47@gmail.com','Doctor','MBBS','NOIDA',2230000);
+
+1 row created.
+
+SQL> insert into profile values('xyz48@gmail.com','Accountant','CA','JHALANDAR',370000);
+
+1 row created.
+
+SQL> insert into profile values('xyz49@gmail.com','Marketing','MBA','AMRITSAR',7500000);
+
+1 row created.
+
+SQL> insert into profile values('xyz50@gmail.com','Accountant','CA','BANGLORE',12710000);
+
+1 row created.
+
+SQL> insert into profile values('xyz51@gmail.com','Teacher','BEd','OOTY',7400000);
+
+1 row created.
+
+SQL> insert into profile values('xyz52@gmail.com','Marketing','MBA','MYSORE',2660000);
+
+1 row created.
+
+SQL> insert into profile values('xyz53@gmail.com','Lawyer','LLB','SHIMLA',2870000);
+
+1 row created.
+
+SQL> insert into profile values('xyz54@gmail.com','Doctor','MBBS','MANALI',8050000);
+
+1 row created.
+
+SQL> insert into profile values('xyz55@gmail.com','Marketing','MBA','GUWAHATI',13870000);
+
+1 row created.
+
+SQL> insert into profile values('xyz56@gmail.com','Doctor','MBBS','AHEMDABAD',14540000);
+
+1 row created.
+
+SQL> insert into profile values('xyz57@gmail.com','Software Engineer','Btech','SURAT',8660000);
+
+1 row created.
+
+SQL> insert into profile values('xyz58@gmail.com','Lawyer','LLB','PANAJI',14920000);
+
+1 row created.
+
+SQL> insert into profile values('xyz59@gmail.com','Teacher','BEd','UJJAIN',960000);
+
+1 row created.
+
+SQL> insert into profile values('xyz60@gmail.com','Doctor','MBBS','HYDERABAD',9510000);
+
+1 row created.
+
+SQL> insert into profile values('xyz61@gmail.com','Business','MBA','CHITTORGARH',7060000);
+
+1 row created.
+
+SQL> insert into profile values('xyz62@gmail.com','Business','MBA','JODHPUR',10780000);
+
+1 row created.
+
+SQL> insert into profile values('xyz63@gmail.com','Software Engineer','Btech','JAISALMER',450000);
+
+1 row created.
+
+SQL> insert into profile values('xyz64@gmail.com','Business','MBA','RANTHAMBORE',10520000);
+
+1 row created.
+
+SQL> insert into profile values('xyz65@gmail.com','Business','MBA','PUSHKAR',580000);
+
+1 row created.
+
+SQL> insert into profile values('xyz66@gmail.com','Software Engineer','Btech','AJMER',7830000);
+
+1 row created.
+
+SQL> insert into profile values('xyz67@gmail.com','Accountant','CA','SAWAI MADHOPUR',9550000);
+
+1 row created.
+
+SQL> insert into profile values('xyz68@gmail.com','Marketing','MBA','KOLKATA',14410000);
+
+1 row created.
+
+SQL> insert into profile values('xyz69@gmail.com','Accountant','CA','KOTA',8470000);
+
+1 row created.
+
+SQL> insert into profile values('xyz70@gmail.com','Lawyer','LLB','BARAN',8050000);
+
+1 row created.
+
+SQL> insert into profile values('xyz71@gmail.com','Software Engineer','Btech','JHALAWAR',5520000);
+
+1 row created.
+
+SQL> insert into profile values('xyz72@gmail.com','Marketing','MBA','INDORE',5670000);
+
+1 row created.
+
+SQL> insert into profile values('xyz73@gmail.com','Sales','MBA','DELHI',3580000);
+
+1 row created.
+
+SQL> insert into profile values('xyz74@gmail.com','Business','MBA','MUMBAI',12890000);
+
+1 row created.
+
+SQL> insert into profile values('xyz75@gmail.com','Lawyer','LLB','CHENNAI',10300000);
+
+1 row created.
+
+SQL> insert into profile values('xyz76@gmail.com','Teacher','BEd','KOLKATA',5120000);
+
+1 row created.
+
+SQL> insert into profile values('xyz77@gmail.com','Doctor','MBBS','GUWAHATI',1580000);
+
+1 row created.
+
+SQL> insert into profile values('xyz78@gmail.com','Teacher','BEd','JAIPUR',3830000);
+
+1 row created.
+
+SQL> insert into profile values('xyz79@gmail.com','Business','MBA','KOTA',1590000);
+
+1 row created.
+
+SQL> insert into profile values('xyz80@gmail.com','Marketing','MBA','BARAN',14440000);
+
+1 row created.
+
+SQL> insert into profile values('xyz81@gmail.com','Software Engineer','Btech','JHALAWAR',13870000);
+
+1 row created.
+
+SQL> insert into profile values('xyz82@gmail.com','Sales','MBA','INDORE',4430000);
+
+1 row created.
+
+SQL> insert into profile values('xyz83@gmail.com','Teacher','BEd','DELHI',9120000);
+
+1 row created.
+
+SQL> insert into profile values('xyz84@gmail.com','Accountant','CA','MATHURA',13710000);
+
+1 row created.
+
+SQL> insert into profile values('xyz85@gmail.com','Business','MBA','AGRA',7410000);
+
+1 row created.
+
+SQL> insert into profile values('xyz86@gmail.com','Doctor','MBBS','AGRA',7400000);
+
+1 row created.
+
+SQL> insert into profile values('xyz87@gmail.com','Sales','MBA','GAYA',10500000);
+
+1 row created.
+
+SQL> insert into profile values('xyz88@gmail.com','Marketing','MBA','PATNA',12910000);
+
+1 row created.
+
+SQL> insert into profile values('xyz89@gmail.com','Accountant','CA','CHATTISGARH',1800000);
+
+1 row created.
+
+SQL> insert into profile values('xyz90@gmail.com','Doctor','MBBS','KOTA',1480000);
+
+1 row created.
+
+SQL> insert into profile values('xyz91@gmail.com','Business','MBA','KOTA',2190000);
+
+1 row created.
+
+SQL> insert into profile values('xyz92@gmail.com','Business','MBA','BUNDI',4090000);
+
+1 row created.
+
+SQL> insert into profile values('xyz93@gmail.com','Accountant','CA','DELHI',4910000);
+
+1 row created.
+
+SQL> insert into profile values('xyz94@gmail.com','Software Engineer','Btech','CHANDIGARH',5410000);
+
+1 row created.
+
+SQL> insert into profile values('xyz95@gmail.com','Marketing','MBA','BHILWARA',9660000);
+
+1 row created.
+
+SQL> insert into profile values('xyz96@gmail.com','Marketing','MBA','UDAIPUR',11450000);
+
+1 row created.
+
+SQL> insert into profile values('xyz97@gmail.com','Marketing','MBA','NOIDA',2710000);
+
+1 row created.
+
+SQL> insert into profile values('xyz98@gmail.com','Software Engineer','Btech','JHALANDAR',1030000);
+
+1 row created.
+
+SQL> insert into profile values('xyz99@gmail.com','Marketing','MBA','AMRITSAR',10540000);
+
+1 row created.
+
+SQL> insert into profile values('xyz100@gmail.com','Accountant','CA','BANGLORE',1630000);
+
+1 row created.
+
+SQL> insert into profile values('xyz101@gmail.com','Lawyer','LLB','OOTY',2670000);
+
+1 row created.
+
+SQL> insert into profile values('xyz102@gmail.com','Software Engineer','Btech','MYSORE',6700000);
+
+1 row created.
+
+SQL> insert into profile values('xyz103@gmail.com','Lawyer','LLB','SHIMLA',5390000);
+
+1 row created.
+
+SQL> insert into profile values('xyz104@gmail.com','Lawyer','LLB','MANALI',11550000);
+
+1 row created.
+
+SQL> insert into profile values('xyz105@gmail.com','Lawyer','LLB','GUWAHATI',4160000);
+
+1 row created.
+
+SQL> insert into profile values('xyz106@gmail.com','Sales','MBA','AHEMDABAD',14930000);
+
+1 row created.
+
+SQL> insert into profile values('xyz107@gmail.com','Lawyer','LLB','SURAT',12670000);
+
+1 row created.
+
+SQL> insert into profile values('xyz108@gmail.com','Doctor','MBBS','PANAJI',4660000);
+
+1 row created.
+
+SQL> insert into profile values('xyz109@gmail.com','Lawyer','LLB','UJJAIN',1440000);
+
+1 row created.
+
+SQL> insert into profile values('xyz110@gmail.com','Sales','MBA','HYDERABAD',4450000);
+
+1 row created.
+
+SQL> insert into profile values('xyz111@gmail.com','Software Engineer','Btech','CHANDIGARH',140000);
+
+1 row created.
+
+SQL> insert into profile values('xyz112@gmail.com','Business','MBA','BHILWARA',6070000);
+
+1 row created.
+
+SQL> insert into profile values('xyz113@gmail.com','Accountant','CA','UDAIPUR',490000);
+
+1 row created.
+
+SQL> insert into profile values('xyz114@gmail.com','Lawyer','LLB','NOIDA',5930000);
+
+1 row created.
+
+SQL> insert into profile values('xyz115@gmail.com','Lawyer','LLB','JHALANDAR',13950000);
+
+1 row created.
+
+SQL> insert into profile values('xyz116@gmail.com','Lawyer','LLB','AMRITSAR',11000000);
+
+1 row created.
+
+SQL> insert into profile values('xyz117@gmail.com','Teacher','BEd','BANGLORE',500000);
+
+1 row created.
+
+SQL> insert into profile values('xyz118@gmail.com','Lawyer','LLB','OOTY',8390000);
+
+1 row created.
+
+SQL> insert into profile values('xyz119@gmail.com','Accountant','CA','MYSORE',9280000);
+
+1 row created.
+
+SQL> insert into profile values('xyz120@gmail.com','Lawyer','LLB','SHIMLA',14050000);
+
+1 row created.
+
+SQL> insert into profile values('xyz121@gmail.com','Accountant','CA','MANALI',9700000);
+
+1 row created.
+
+SQL> insert into profile values('xyz122@gmail.com','Doctor','MBBS','GUWAHATI',2640000);
+
+1 row created.
+
+SQL> insert into profile values('xyz123@gmail.com','Sales','MBA','AHEMDABAD',11690000);
+
+1 row created.
+
+SQL> insert into profile values('xyz124@gmail.com','Lawyer','LLB','SURAT',10030000);
+
+1 row created.
+
+SQL> insert into profile values('xyz125@gmail.com','Software Engineer','Btech','PANAJI',7820000);
+
+1 row created.
+
+SQL> insert into profile values('xyz126@gmail.com','Lawyer','LLB','UJJAIN',5420000);
+
+1 row created.
+
+SQL> insert into profile values('xyz127@gmail.com','Teacher','BEd','HYDERABAD',3150000);
+
+1 row created.
+
+SQL> insert into profile values('xyz128@gmail.com','Business','MBA','CHITTORGARH',7840000);
+
+1 row created.
+
+SQL> insert into profile values('xyz129@gmail.com','Doctor','MBBS','JODHPUR',1500000);
+
+1 row created.
+
+SQL> insert into profile values('xyz130@gmail.com','Business','MBA','JAISALMER',13140000);
+
+1 row created.
+
+SQL> insert into profile values('xyz131@gmail.com','Software Engineer','Btech','RANTHAMBORE',8500000);
+
+1 row created.
+
+SQL> insert into profile values('xyz132@gmail.com','Marketing','MBA','PUSHKAR',320000);
+
+1 row created.
+
+SQL> insert into profile values('xyz133@gmail.com','Teacher','BEd','AJMER',12570000);
+
+1 row created.
+
+SQL> insert into profile values('xyz134@gmail.com','Accountant','CA','SAWAI MADHOPUR',320000);
+
+1 row created.
+
+SQL> insert into profile values('xyz135@gmail.com','Lawyer','LLB','KISHANGARH',6450000);
+
+1 row created.
+
+SQL> insert into profile values('xyz136@gmail.com','Lawyer','LLB','SHIRPUR',7940000);
+
+1 row created.
+
+SQL> insert into profile values('xyz137@gmail.com','Business','MBA','BARMER',10610000);
+
+1 row created.
+
+SQL> insert into profile values('xyz138@gmail.com','Sales','MBA','DHULE',11540000);
+
+1 row created.
+
+SQL> insert into profile values('xyz139@gmail.com','Marketing','MBA','BHOPAL',14590000);
+
+1 row created.
+
+SQL> insert into profile values('xyz140@gmail.com','Marketing','MBA','NAGADA',5730000);
+
+1 row created.
+
+SQL> insert into profile values('xyz141@gmail.com','Business','MBA','BEGUSARAI',4220000);
+
+1 row created.
+
+SQL> insert into profile values('xyz142@gmail.com','Accountant','CA','NAGORE',10810000);
+
+1 row created.
+
+SQL> insert into profile values('xyz143@gmail.com','Marketing','MBA','JHALANDAR',9680000);
+
+1 row created.
+
+SQL> insert into profile values('xyz144@gmail.com','Sales','MBA','AMRITSAR',7210000);
+
+1 row created.
+
+SQL> insert into profile values('xyz145@gmail.com','Business','MBA','BANGLORE',3330000);
+
+1 row created.
+
+SQL> insert into profile values('xyz146@gmail.com','Software Engineer','Btech','OOTY',2870000);
+
+1 row created.
+
+SQL> insert into profile values('xyz147@gmail.com','Lawyer','LLB','MYSORE',13650000);
+
+1 row created.
+
+SQL> insert into profile values('xyz148@gmail.com','Accountant','CA','SHIMLA',6340000);
+
+1 row created.
+
+SQL> insert into profile values('xyz149@gmail.com','Sales','MBA','MANALI',5450000);
+
+1 row created.
+
+SQL> insert into profile values('xyz150@gmail.com','Business','MBA','GUWAHATI',11200000);
+
+1 row created.
+
+SQL> select*from profile;
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz1@gmail.com       Sales                          MBA        KOLKATA                   10420000
+xyz2@gmail.com       Accountant                     CA         KOTA                      14300000
+xyz3@gmail.com       Lawyer                         LLB        BARAN                      9640000
+xyz4@gmail.com       Lawyer                         LLB        JHALAWAR                   8240000
+xyz5@gmail.com       Accountant                     CA         INDORE                     1390000
+xyz6@gmail.com       Doctor                         MBBS       DELHI                      6400000
+xyz7@gmail.com       Sales                          MBA        MUMBAI                     2250000
+xyz8@gmail.com       Sales                          MBA        CHENNAI                    6490000
+xyz9@gmail.com       Accountant                     CA         KOLKATA                    2230000
+xyz10@gmail.com      Software Engineer              Btech      GUWAHATI                   5530000
+xyz11@gmail.com      Marketing                      MBA        JAIPUR                      820000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz12@gmail.com      Business                       MBA        KOTA                       8120000
+xyz13@gmail.com      Sales                          MBA        BARAN                      2010000
+xyz14@gmail.com      Lawyer                         LLB        JHALAWAR                  14200000
+xyz15@gmail.com      Accountant                     CA         INDORE                    10500000
+xyz16@gmail.com      Marketing                      MBA        DELHI                     12470000
+xyz17@gmail.com      Software Engineer              Btech      MATHURA                   10760000
+xyz18@gmail.com      Marketing                      MBA        AGRA                       8790000
+xyz19@gmail.com      Lawyer                         LLB        AGRA                       8820000
+xyz20@gmail.com      Software Engineer              Btech      GAYA                      13380000
+xyz21@gmail.com      Lawyer                         LLB        PATNA                     10880000
+xyz22@gmail.com      Accountant                     CA         CHATTISGARH                7090000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz23@gmail.com      Sales                          MBA        KOTA                       4920000
+xyz24@gmail.com      Software Engineer              Btech      KOTA                       1220000
+xyz25@gmail.com      Lawyer                         LLB        BUNDI                     12100000
+xyz26@gmail.com      Business                       MBA        DELHI                     11150000
+xyz27@gmail.com      Business                       MBA        CHANDIGARH                  530000
+xyz28@gmail.com      Business                       MBA        BHILWARA                   1060000
+xyz29@gmail.com      Sales                          MBA        UDAIPUR                    8550000
+xyz30@gmail.com      Lawyer                         LLB        NOIDA                      6850000
+xyz31@gmail.com      Doctor                         MBBS       JHALANDAR                 12300000
+xyz32@gmail.com      Business                       MBA        AMRITSAR                  12970000
+xyz33@gmail.com      Marketing                      MBA        BANGLORE                    710000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz34@gmail.com      Business                       MBA        OOTY                       7490000
+xyz35@gmail.com      Marketing                      MBA        MYSORE                    14030000
+xyz36@gmail.com      Accountant                     CA         SHIMLA                     2690000
+xyz37@gmail.com      Software Engineer              Btech      MANALI                     3230000
+xyz38@gmail.com      Sales                          MBA        GUWAHATI                   5950000
+xyz39@gmail.com      Marketing                      MBA        AHEMDABAD                   370000
+xyz40@gmail.com      Marketing                      MBA        SURAT                      8230000
+xyz41@gmail.com      Business                       MBA        PANAJI                      690000
+xyz42@gmail.com      Accountant                     CA         UJJAIN                     4480000
+xyz43@gmail.com      Lawyer                         LLB        HYDERABAD                  5890000
+xyz44@gmail.com      Doctor                         MBBS       CHANDIGARH                11960000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz45@gmail.com      Sales                          MBA        BHILWARA                   2460000
+xyz46@gmail.com      Doctor                         MBBS       UDAIPUR                    5500000
+xyz47@gmail.com      Doctor                         MBBS       NOIDA                      2230000
+xyz48@gmail.com      Accountant                     CA         JHALANDAR                   370000
+xyz49@gmail.com      Marketing                      MBA        AMRITSAR                   7500000
+xyz50@gmail.com      Accountant                     CA         BANGLORE                  12710000
+xyz51@gmail.com      Teacher                        BEd        OOTY                       7400000
+xyz52@gmail.com      Marketing                      MBA        MYSORE                     2660000
+xyz53@gmail.com      Lawyer                         LLB        SHIMLA                     2870000
+xyz54@gmail.com      Doctor                         MBBS       MANALI                     8050000
+xyz55@gmail.com      Marketing                      MBA        GUWAHATI                  13870000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz56@gmail.com      Doctor                         MBBS       AHEMDABAD                 14540000
+xyz57@gmail.com      Software Engineer              Btech      SURAT                      8660000
+xyz58@gmail.com      Lawyer                         LLB        PANAJI                    14920000
+xyz59@gmail.com      Teacher                        BEd        UJJAIN                      960000
+xyz60@gmail.com      Doctor                         MBBS       HYDERABAD                  9510000
+xyz61@gmail.com      Business                       MBA        CHITTORGARH                7060000
+xyz62@gmail.com      Business                       MBA        JODHPUR                   10780000
+xyz63@gmail.com      Software Engineer              Btech      JAISALMER                   450000
+xyz64@gmail.com      Business                       MBA        RANTHAMBORE               10520000
+xyz65@gmail.com      Business                       MBA        PUSHKAR                     580000
+xyz66@gmail.com      Software Engineer              Btech      AJMER                      7830000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz67@gmail.com      Accountant                     CA         SAWAI MADHOPUR             9550000
+xyz68@gmail.com      Marketing                      MBA        KOLKATA                   14410000
+xyz69@gmail.com      Accountant                     CA         KOTA                       8470000
+xyz70@gmail.com      Lawyer                         LLB        BARAN                      8050000
+xyz71@gmail.com      Software Engineer              Btech      JHALAWAR                   5520000
+xyz72@gmail.com      Marketing                      MBA        INDORE                     5670000
+xyz73@gmail.com      Sales                          MBA        DELHI                      3580000
+xyz74@gmail.com      Business                       MBA        MUMBAI                    12890000
+xyz75@gmail.com      Lawyer                         LLB        CHENNAI                   10300000
+xyz76@gmail.com      Teacher                        BEd        KOLKATA                    5120000
+xyz77@gmail.com      Doctor                         MBBS       GUWAHATI                   1580000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz78@gmail.com      Teacher                        BEd        JAIPUR                     3830000
+xyz79@gmail.com      Business                       MBA        KOTA                       1590000
+xyz80@gmail.com      Marketing                      MBA        BARAN                     14440000
+xyz81@gmail.com      Software Engineer              Btech      JHALAWAR                  13870000
+xyz82@gmail.com      Sales                          MBA        INDORE                     4430000
+xyz83@gmail.com      Teacher                        BEd        DELHI                      9120000
+xyz84@gmail.com      Accountant                     CA         MATHURA                   13710000
+xyz85@gmail.com      Business                       MBA        AGRA                       7410000
+xyz86@gmail.com      Doctor                         MBBS       AGRA                       7400000
+xyz87@gmail.com      Sales                          MBA        GAYA                      10500000
+xyz88@gmail.com      Marketing                      MBA        PATNA                     12910000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz89@gmail.com      Accountant                     CA         CHATTISGARH                1800000
+xyz90@gmail.com      Doctor                         MBBS       KOTA                       1480000
+xyz91@gmail.com      Business                       MBA        KOTA                       2190000
+xyz92@gmail.com      Business                       MBA        BUNDI                      4090000
+xyz93@gmail.com      Accountant                     CA         DELHI                      4910000
+xyz94@gmail.com      Software Engineer              Btech      CHANDIGARH                 5410000
+xyz95@gmail.com      Marketing                      MBA        BHILWARA                   9660000
+xyz96@gmail.com      Marketing                      MBA        UDAIPUR                   11450000
+xyz97@gmail.com      Marketing                      MBA        NOIDA                      2710000
+xyz98@gmail.com      Software Engineer              Btech      JHALANDAR                  1030000
+xyz99@gmail.com      Marketing                      MBA        AMRITSAR                  10540000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz100@gmail.com     Accountant                     CA         BANGLORE                   1630000
+xyz101@gmail.com     Lawyer                         LLB        OOTY                       2670000
+xyz102@gmail.com     Software Engineer              Btech      MYSORE                     6700000
+xyz103@gmail.com     Lawyer                         LLB        SHIMLA                     5390000
+xyz104@gmail.com     Lawyer                         LLB        MANALI                    11550000
+xyz105@gmail.com     Lawyer                         LLB        GUWAHATI                   4160000
+xyz106@gmail.com     Sales                          MBA        AHEMDABAD                 14930000
+xyz107@gmail.com     Lawyer                         LLB        SURAT                     12670000
+xyz108@gmail.com     Doctor                         MBBS       PANAJI                     4660000
+xyz109@gmail.com     Lawyer                         LLB        UJJAIN                     1440000
+xyz110@gmail.com     Sales                          MBA        HYDERABAD                  4450000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz111@gmail.com     Software Engineer              Btech      CHANDIGARH                  140000
+xyz112@gmail.com     Business                       MBA        BHILWARA                   6070000
+xyz113@gmail.com     Accountant                     CA         UDAIPUR                     490000
+xyz114@gmail.com     Lawyer                         LLB        NOIDA                      5930000
+xyz115@gmail.com     Lawyer                         LLB        JHALANDAR                 13950000
+xyz116@gmail.com     Lawyer                         LLB        AMRITSAR                  11000000
+xyz117@gmail.com     Teacher                        BEd        BANGLORE                    500000
+xyz118@gmail.com     Lawyer                         LLB        OOTY                       8390000
+xyz119@gmail.com     Accountant                     CA         MYSORE                     9280000
+xyz120@gmail.com     Lawyer                         LLB        SHIMLA                    14050000
+xyz121@gmail.com     Accountant                     CA         MANALI                     9700000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz122@gmail.com     Doctor                         MBBS       GUWAHATI                   2640000
+xyz123@gmail.com     Sales                          MBA        AHEMDABAD                 11690000
+xyz124@gmail.com     Lawyer                         LLB        SURAT                     10030000
+xyz125@gmail.com     Software Engineer              Btech      PANAJI                     7820000
+xyz126@gmail.com     Lawyer                         LLB        UJJAIN                     5420000
+xyz127@gmail.com     Teacher                        BEd        HYDERABAD                  3150000
+xyz128@gmail.com     Business                       MBA        CHITTORGARH                7840000
+xyz129@gmail.com     Doctor                         MBBS       JODHPUR                    1500000
+xyz130@gmail.com     Business                       MBA        JAISALMER                 13140000
+xyz131@gmail.com     Software Engineer              Btech      RANTHAMBORE                8500000
+xyz132@gmail.com     Marketing                      MBA        PUSHKAR                     320000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz133@gmail.com     Teacher                        BEd        AJMER                     12570000
+xyz134@gmail.com     Accountant                     CA         SAWAI MADHOPUR              320000
+xyz135@gmail.com     Lawyer                         LLB        KISHANGARH                 6450000
+xyz136@gmail.com     Lawyer                         LLB        SHIRPUR                    7940000
+xyz137@gmail.com     Business                       MBA        BARMER                    10610000
+xyz138@gmail.com     Sales                          MBA        DHULE                     11540000
+xyz139@gmail.com     Marketing                      MBA        BHOPAL                    14590000
+xyz140@gmail.com     Marketing                      MBA        NAGADA                     5730000
+xyz141@gmail.com     Business                       MBA        BEGUSARAI                  4220000
+xyz142@gmail.com     Accountant                     CA         NAGORE                    10810000
+xyz143@gmail.com     Marketing                      MBA        JHALANDAR                  9680000
+
+MAIL_ID              JOB_PROFILE                    DEGREE     CURRENT_PLACE        ANNUAL_INCOME
+-------------------- ------------------------------ ---------- -------------------- -------------
+xyz144@gmail.com     Sales                          MBA        AMRITSAR                   7210000
+xyz145@gmail.com     Business                       MBA        BANGLORE                   3330000
+xyz146@gmail.com     Software Engineer              Btech      OOTY                       2870000
+xyz147@gmail.com     Lawyer                         LLB        MYSORE                    13650000
+xyz148@gmail.com     Accountant                     CA         SHIMLA                     6340000
+xyz149@gmail.com     Sales                          MBA        MANALI                     5450000
+xyz150@gmail.com     Business                       MBA        GUWAHATI                  11200000
+
+150 rows selected.

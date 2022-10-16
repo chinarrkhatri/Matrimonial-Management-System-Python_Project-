@@ -1,0 +1,839 @@
+
+SQL> create table basic(userid number(5),
+  2  family_id number(5),
+  3  mail_id varchar2(20),
+  4  mobile_no number(11),
+  5  foreign key(userid) references info(userid),
+  6  foreign key(family_id) references family_details(family_id),
+  7  foreign key(mail_id) references profile(mail_id),
+  8  foreign key(mobile_no) references details(mobile_no));
+
+Table created.
+
+SQL> select * from basic;
+
+no rows selected
+
+SQL> desc basic;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ USERID                                             NUMBER(5)
+ FAMILY_ID                                          NUMBER(5)
+ MAIL_ID                                            VARCHAR2(20)
+ MOBILE_NO                                          NUMBER(11)
+
+SQL> alter table basic
+  2  add indexing number(3);
+
+Table altered.
+
+SQL> alter table basic
+  2  add primary key (indexing);
+
+Table altered.
+
+SQL> desc basic;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ USERID                                             NUMBER(5)
+ FAMILY_ID                                          NUMBER(5)
+ MAIL_ID                                            VARCHAR2(20)
+ MOBILE_NO                                          NUMBER(11)
+ INDEXING                                  NOT NULL NUMBER(3)
+
+SQL> insert into basic values(101,1001,'xyz1@gmail.com',9094871954,1);
+
+1 row created.
+
+SQL> insert into basic values(102,1002,'xyz2@gmail.com',9776572469,2);
+
+1 row created.
+
+SQL> insert into basic values(103,1003,'xyz3@gmail.com',9500338154,3);
+
+1 row created.
+
+SQL> insert into basic values(104,1004,'xyz4@gmail.com',9264340026,4);
+
+1 row created.
+
+SQL> insert into basic values(105,1005,'xyz5@gmail.com',9020480705,5);
+
+1 row created.
+
+SQL> insert into basic values(106,1006,'xyz6@gmail.com',9381444203,6);
+
+1 row created.
+
+SQL> insert into basic values(107,1007,'xyz7@gmail.com',9150402852,7);
+
+1 row created.
+
+SQL> insert into basic values(108,1008,'xyz8@gmail.com',9799030182,8);
+
+1 row created.
+
+SQL> insert into basic values(109,1009,'xyz9@gmail.com',9745977803,9);
+
+1 row created.
+
+SQL> insert into basic values(110,1010,'xyz10@gmail.com',9703601612,10);
+
+1 row created.
+
+SQL> insert into basic values(111,1011,'xyz11@gmail.com',9613582917,11);
+
+1 row created.
+
+SQL> insert into basic values(112,1012,'xyz12@gmail.com',9624344749,12);
+
+1 row created.
+
+SQL> insert into basic values(113,1013,'xyz13@gmail.com',9209507139,13);
+
+1 row created.
+
+SQL> insert into basic values(114,1014,'xyz14@gmail.com',9454018328,14);
+
+1 row created.
+
+SQL> insert into basic values(115,1015,'xyz15@gmail.com',9129902340,15);
+
+1 row created.
+
+SQL> insert into basic values(116,1016,'xyz16@gmail.com',9652860181,16);
+
+1 row created.
+
+SQL> insert into basic values(117,1017,'xyz17@gmail.com',9263446834,17);
+
+1 row created.
+
+SQL> insert into basic values(118,1018,'xyz18@gmail.com',9543076513,18);
+
+1 row created.
+
+SQL> insert into basic values(119,1019,'xyz19@gmail.com',9550891607,19);
+
+1 row created.
+
+SQL> insert into basic values(120,1020,'xyz20@gmail.com',9085099228,20);
+
+1 row created.
+
+SQL> insert into basic values(121,1021,'xyz21@gmail.com',9377759504,21);
+
+1 row created.
+
+SQL> insert into basic values(122,1022,'xyz22@gmail.com',9553170390,22);
+
+1 row created.
+
+SQL> insert into basic values(123,1023,'xyz23@gmail.com',9408338770,23);
+
+1 row created.
+
+SQL> insert into basic values(124,1024,'xyz24@gmail.com',9047910832,24);
+
+1 row created.
+
+SQL> insert into basic values(125,1025,'xyz25@gmail.com',9296932193,25);
+
+1 row created.
+
+SQL> insert into basic values(126,1026,'xyz26@gmail.com',9698369629,26);
+
+1 row created.
+
+SQL> insert into basic values(127,1027,'xyz27@gmail.com',9634304817,27);
+
+1 row created.
+
+SQL> insert into basic values(128,1028,'xyz28@gmail.com',9590060778,28);
+
+1 row created.
+
+SQL> insert into basic values(129,1029,'xyz29@gmail.com',9439053946,29);
+
+1 row created.
+
+SQL> insert into basic values(130,1030,'xyz30@gmail.com',9033775333,30);
+
+1 row created.
+
+SQL> insert into basic values(131,1031,'xyz31@gmail.com',9420238737,31);
+
+1 row created.
+
+SQL> insert into basic values(132,1032,'xyz32@gmail.com',9516663232,32);
+
+1 row created.
+
+SQL> insert into basic values(133,1033,'xyz33@gmail.com',9772642662,33);
+
+1 row created.
+
+SQL> insert into basic values(134,1034,'xyz34@gmail.com',9223120333,34);
+
+1 row created.
+
+SQL> insert into basic values(135,1035,'xyz35@gmail.com',9528456131,35);
+
+1 row created.
+
+SQL> insert into basic values(136,1036,'xyz36@gmail.com',9703455504,36);
+
+1 row created.
+
+SQL> insert into basic values(137,1037,'xyz37@gmail.com',9613360732,37);
+
+1 row created.
+
+SQL> insert into basic values(138,1038,'xyz38@gmail.com',9468888014,38);
+
+1 row created.
+
+SQL> insert into basic values(139,1039,'xyz39@gmail.com',9463135896,39);
+
+1 row created.
+
+SQL> insert into basic values(140,1040,'xyz40@gmail.com',9398032269,40);
+
+1 row created.
+
+SQL> insert into basic values(141,1041,'xyz41@gmail.com',9538165652,41);
+
+1 row created.
+
+SQL> insert into basic values(142,1042,'xyz42@gmail.com',9203151666,42);
+
+1 row created.
+
+SQL> insert into basic values(143,1043,'xyz43@gmail.com',9519853804,43);
+
+1 row created.
+
+SQL> insert into basic values(144,1044,'xyz44@gmail.com',9704207898,44);
+
+1 row created.
+
+SQL> insert into basic values(145,1045,'xyz45@gmail.com',9411681320,45);
+
+1 row created.
+
+SQL> insert into basic values(146,1046,'xyz46@gmail.com',9758994065,46);
+
+1 row created.
+
+SQL> insert into basic values(147,1047,'xyz47@gmail.com',9690451681,47);
+
+1 row created.
+
+SQL> insert into basic values(148,1048,'xyz48@gmail.com',9498603030,48);
+
+1 row created.
+
+SQL> insert into basic values(149,1049,'xyz49@gmail.com',9708747450,49);
+
+1 row created.
+
+SQL> insert into basic values(150,1050,'xyz50@gmail.com',9722451826,50);
+
+1 row created.
+
+SQL> insert into basic values(151,1051,'xyz51@gmail.com',9006502373,51);
+
+1 row created.
+
+SQL> insert into basic values(152,1052,'xyz52@gmail.com',9325408559,52);
+
+1 row created.
+
+SQL> insert into basic values(153,1053,'xyz53@gmail.com',9688106545,53);
+
+1 row created.
+
+SQL> insert into basic values(154,1054,'xyz54@gmail.com',9343011963,54);
+
+1 row created.
+
+SQL> insert into basic values(155,1055,'xyz55@gmail.com',9212040710,55);
+
+1 row created.
+
+SQL> insert into basic values(156,1056,'xyz56@gmail.com',9145038812,56);
+
+1 row created.
+
+SQL> insert into basic values(157,1057,'xyz57@gmail.com',9705801094,57);
+
+1 row created.
+
+SQL> insert into basic values(158,1058,'xyz58@gmail.com',9449644484,58);
+
+1 row created.
+
+SQL> insert into basic values(159,1059,'xyz59@gmail.com',9180416208,59);
+
+1 row created.
+
+SQL> insert into basic values(160,1060,'xyz60@gmail.com',9249242253,60);
+
+1 row created.
+
+SQL> insert into basic values(161,1061,'xyz61@gmail.com',9453410204,61);
+
+1 row created.
+
+SQL> insert into basic values(162,1062,'xyz62@gmail.com',9558464191,62);
+
+1 row created.
+
+SQL> insert into basic values(163,1063,'xyz63@gmail.com',9531699573,63);
+
+1 row created.
+
+SQL> insert into basic values(164,1064,'xyz64@gmail.com',9192034483,64);
+
+1 row created.
+
+SQL> insert into basic values(165,1065,'xyz65@gmail.com',9207119590,65);
+
+1 row created.
+
+SQL> insert into basic values(166,1066,'xyz66@gmail.com',9245843425,66);
+
+1 row created.
+
+SQL> insert into basic values(167,1067,'xyz67@gmail.com',9082159991,67);
+
+1 row created.
+
+SQL> insert into basic values(168,1068,'xyz68@gmail.com',9237370133,68);
+
+1 row created.
+
+SQL> insert into basic values(169,1069,'xyz69@gmail.com',9270589616,69);
+
+1 row created.
+
+SQL> insert into basic values(170,1070,'xyz70@gmail.com',9048014528,70);
+
+1 row created.
+
+SQL> insert into basic values(171,1071,'xyz71@gmail.com',9146158988,71);
+
+1 row created.
+
+SQL> insert into basic values(172,1072,'xyz72@gmail.com',9786875386,72);
+
+1 row created.
+
+SQL> insert into basic values(173,1073,'xyz73@gmail.com',9732496506,73);
+
+1 row created.
+
+SQL> insert into basic values(174,1074,'xyz74@gmail.com',9636483898,74);
+
+1 row created.
+
+SQL> insert into basic values(175,1075,'xyz75@gmail.com',9110916003,75);
+
+1 row created.
+
+SQL> insert into basic values(176,1076,'xyz76@gmail.com',9414178803,76);
+
+1 row created.
+
+SQL> insert into basic values(177,1077,'xyz77@gmail.com',9598349137,77);
+
+1 row created.
+
+SQL> insert into basic values(178,1078,'xyz78@gmail.com',9169598808,78);
+
+1 row created.
+
+SQL> insert into basic values(179,1079,'xyz79@gmail.com',9099078846,79);
+
+1 row created.
+
+SQL> insert into basic values(180,1080,'xyz80@gmail.com',9328315531,80);
+
+1 row created.
+
+SQL> insert into basic values(181,1081,'xyz81@gmail.com',9490891691,81);
+
+1 row created.
+
+SQL> insert into basic values(182,1082,'xyz82@gmail.com',9708997878,82);
+
+1 row created.
+
+SQL> insert into basic values(183,1083,'xyz83@gmail.com',9693481141,83);
+
+1 row created.
+
+SQL> insert into basic values(184,1084,'xyz84@gmail.com',9178282186,84);
+
+1 row created.
+
+SQL> insert into basic values(185,1085,'xyz85@gmail.com',9548468107,85);
+
+1 row created.
+
+SQL> insert into basic values(186,1086,'xyz86@gmail.com',9323027533,86);
+
+1 row created.
+
+SQL> insert into basic values(187,1087,'xyz87@gmail.com',9585955161,87);
+
+1 row created.
+
+SQL> insert into basic values(188,1088,'xyz88@gmail.com',9223888689,88);
+
+1 row created.
+
+SQL> insert into basic values(189,1089,'xyz89@gmail.com',9688659137,89);
+
+1 row created.
+
+SQL> insert into basic values(190,1090,'xyz90@gmail.com',9079004760,90);
+
+1 row created.
+
+SQL> insert into basic values(191,1091,'xyz91@gmail.com',9514400771,91);
+
+1 row created.
+
+SQL> insert into basic values(192,1092,'xyz92@gmail.com',9162587666,92);
+
+1 row created.
+
+SQL> insert into basic values(193,1093,'xyz93@gmail.com',9057744502,93);
+
+1 row created.
+
+SQL> insert into basic values(194,1094,'xyz94@gmail.com',9423313509,94);
+
+1 row created.
+
+SQL> insert into basic values(195,1095,'xyz95@gmail.com',9320476821,95);
+
+1 row created.
+
+SQL> insert into basic values(196,1096,'xyz96@gmail.com',9292753715,96);
+
+1 row created.
+
+SQL> insert into basic values(197,1097,'xyz97@gmail.com',9073637409,97);
+
+1 row created.
+
+SQL> insert into basic values(198,1098,'xyz98@gmail.com',9226331173,98);
+
+1 row created.
+
+SQL> insert into basic values(199,1099,'xyz99@gmail.com',9736491049,99);
+
+1 row created.
+
+SQL> insert into basic values(200,1100,'xyz100@gmail.com',9727339862,100);
+
+1 row created.
+
+SQL> insert into basic values(201,1101,'xyz101@gmail.com',9356546712,101);
+
+1 row created.
+
+SQL> insert into basic values(202,1102,'xyz102@gmail.com',9047611689,102);
+
+1 row created.
+
+SQL> insert into basic values(203,1103,'xyz103@gmail.com',9632771408,103);
+
+1 row created.
+
+SQL> insert into basic values(204,1104,'xyz104@gmail.com',9811288393,104);
+
+1 row created.
+
+SQL> insert into basic values(205,1105,'xyz105@gmail.com',9071317561,105);
+
+1 row created.
+
+SQL> insert into basic values(206,1106,'xyz106@gmail.com',9611066019,106);
+
+1 row created.
+
+SQL> insert into basic values(207,1107,'xyz107@gmail.com',9298099053,107);
+
+1 row created.
+
+SQL> insert into basic values(208,1108,'xyz108@gmail.com',9484048223,108);
+
+1 row created.
+
+SQL> insert into basic values(209,1109,'xyz109@gmail.com',9467144609,109);
+
+1 row created.
+
+SQL> insert into basic values(210,1110,'xyz110@gmail.com',9610645684,110);
+
+1 row created.
+
+SQL> insert into basic values(211,1111,'xyz111@gmail.com',9125352305,111);
+
+1 row created.
+
+SQL> insert into basic values(212,1112,'xyz112@gmail.com',9210699087,112);
+
+1 row created.
+
+SQL> insert into basic values(213,1113,'xyz113@gmail.com',9368290134,113);
+
+1 row created.
+
+SQL> insert into basic values(214,1114,'xyz114@gmail.com',9659719046,114);
+
+1 row created.
+
+SQL> insert into basic values(215,1115,'xyz115@gmail.com',9673555442,115);
+
+1 row created.
+
+SQL> insert into basic values(216,1116,'xyz116@gmail.com',9196567175,116);
+
+1 row created.
+
+SQL> insert into basic values(217,1117,'xyz117@gmail.com',9274510471,117);
+
+1 row created.
+
+SQL> insert into basic values(218,1118,'xyz118@gmail.com',9223290002,118);
+
+1 row created.
+
+SQL> insert into basic values(219,1119,'xyz119@gmail.com',9015965044,119);
+
+1 row created.
+
+SQL> insert into basic values(220,1120,'xyz120@gmail.com',9466701641,120);
+
+1 row created.
+
+SQL> insert into basic values(221,1121,'xyz121@gmail.com',9073436781,121);
+
+1 row created.
+
+SQL> insert into basic values(222,1122,'xyz122@gmail.com',9663680655,122);
+
+1 row created.
+
+SQL> insert into basic values(223,1123,'xyz123@gmail.com',9021573665,123);
+
+1 row created.
+
+SQL> insert into basic values(224,1124,'xyz124@gmail.com',9667629678,124);
+
+1 row created.
+
+SQL> insert into basic values(225,1125,'xyz125@gmail.com',9475396850,125);
+
+1 row created.
+
+SQL> insert into basic values(226,1126,'xyz126@gmail.com',9294858645,126);
+
+1 row created.
+
+SQL> insert into basic values(227,1127,'xyz127@gmail.com',9732531095,127);
+
+1 row created.
+
+SQL> insert into basic values(228,1128,'xyz128@gmail.com',9451208814,128);
+
+1 row created.
+
+SQL> insert into basic values(229,1129,'xyz129@gmail.com',9488215403,129);
+
+1 row created.
+
+SQL> insert into basic values(230,1130,'xyz130@gmail.com',9715614122,130);
+
+1 row created.
+
+SQL> insert into basic values(231,1131,'xyz131@gmail.com',9682658313,131);
+
+1 row created.
+
+SQL> insert into basic values(232,1132,'xyz132@gmail.com',9110940131,132);
+
+1 row created.
+
+SQL> insert into basic values(233,1133,'xyz133@gmail.com',9497491113,133);
+
+1 row created.
+
+SQL> insert into basic values(234,1134,'xyz134@gmail.com',9403073300,134);
+
+1 row created.
+
+SQL> insert into basic values(235,1135,'xyz135@gmail.com',9140921514,135);
+
+1 row created.
+
+SQL> insert into basic values(236,1136,'xyz136@gmail.com',9534207899,136);
+
+1 row created.
+
+SQL> insert into basic values(237,1137,'xyz137@gmail.com',9570458383,137);
+
+1 row created.
+
+SQL> insert into basic values(238,1138,'xyz138@gmail.com',9670317990,138);
+
+1 row created.
+
+SQL> insert into basic values(239,1139,'xyz139@gmail.com',9819562670,139);
+
+1 row created.
+
+SQL> insert into basic values(240,1140,'xyz140@gmail.com',9043697655,140);
+
+1 row created.
+
+SQL> insert into basic values(241,1141,'xyz141@gmail.com',9459903675,141);
+
+1 row created.
+
+SQL> insert into basic values(242,1142,'xyz142@gmail.com',9551112216,142);
+
+1 row created.
+
+SQL> insert into basic values(243,1143,'xyz143@gmail.com',9210974803,143);
+
+1 row created.
+
+SQL> insert into basic values(244,1144,'xyz144@gmail.com',9477130384,144);
+
+1 row created.
+
+SQL> insert into basic values(245,1145,'xyz145@gmail.com',9736866643,145);
+
+1 row created.
+
+SQL> insert into basic values(246,1146,'xyz146@gmail.com',9025668509,146);
+
+1 row created.
+
+SQL> insert into basic values(247,1147,'xyz147@gmail.com',9605919925,147);
+
+1 row created.
+
+SQL> insert into basic values(248,1148,'xyz148@gmail.com',9242828079,148);
+
+1 row created.
+
+SQL> insert into basic values(249,1149,'xyz149@gmail.com',9793229427,149);
+
+1 row created.
+
+SQL> insert into basic values(250,1150,'xyz150@gmail.com',9326608555,150);
+
+1 row created.
+
+SQL> set linesize 200;
+SQL> select * from basic;
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       101       1001 xyz1@gmail.com       9094871954          1
+       102       1002 xyz2@gmail.com       9776572469          2
+       103       1003 xyz3@gmail.com       9500338154          3
+       104       1004 xyz4@gmail.com       9264340026          4
+       105       1005 xyz5@gmail.com       9020480705          5
+       106       1006 xyz6@gmail.com       9381444203          6
+       107       1007 xyz7@gmail.com       9150402852          7
+       108       1008 xyz8@gmail.com       9799030182          8
+       109       1009 xyz9@gmail.com       9745977803          9
+       110       1010 xyz10@gmail.com      9703601612         10
+       111       1011 xyz11@gmail.com      9613582917         11
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       112       1012 xyz12@gmail.com      9624344749         12
+       113       1013 xyz13@gmail.com      9209507139         13
+       114       1014 xyz14@gmail.com      9454018328         14
+       115       1015 xyz15@gmail.com      9129902340         15
+       116       1016 xyz16@gmail.com      9652860181         16
+       117       1017 xyz17@gmail.com      9263446834         17
+       118       1018 xyz18@gmail.com      9543076513         18
+       119       1019 xyz19@gmail.com      9550891607         19
+       120       1020 xyz20@gmail.com      9085099228         20
+       121       1021 xyz21@gmail.com      9377759504         21
+       122       1022 xyz22@gmail.com      9553170390         22
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       123       1023 xyz23@gmail.com      9408338770         23
+       124       1024 xyz24@gmail.com      9047910832         24
+       125       1025 xyz25@gmail.com      9296932193         25
+       126       1026 xyz26@gmail.com      9698369629         26
+       127       1027 xyz27@gmail.com      9634304817         27
+       128       1028 xyz28@gmail.com      9590060778         28
+       129       1029 xyz29@gmail.com      9439053946         29
+       130       1030 xyz30@gmail.com      9033775333         30
+       131       1031 xyz31@gmail.com      9420238737         31
+       132       1032 xyz32@gmail.com      9516663232         32
+       133       1033 xyz33@gmail.com      9772642662         33
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       134       1034 xyz34@gmail.com      9223120333         34
+       135       1035 xyz35@gmail.com      9528456131         35
+       136       1036 xyz36@gmail.com      9703455504         36
+       137       1037 xyz37@gmail.com      9613360732         37
+       138       1038 xyz38@gmail.com      9468888014         38
+       139       1039 xyz39@gmail.com      9463135896         39
+       140       1040 xyz40@gmail.com      9398032269         40
+       141       1041 xyz41@gmail.com      9538165652         41
+       142       1042 xyz42@gmail.com      9203151666         42
+       143       1043 xyz43@gmail.com      9519853804         43
+       144       1044 xyz44@gmail.com      9704207898         44
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       145       1045 xyz45@gmail.com      9411681320         45
+       146       1046 xyz46@gmail.com      9758994065         46
+       147       1047 xyz47@gmail.com      9690451681         47
+       148       1048 xyz48@gmail.com      9498603030         48
+       149       1049 xyz49@gmail.com      9708747450         49
+       150       1050 xyz50@gmail.com      9722451826         50
+       151       1051 xyz51@gmail.com      9006502373         51
+       152       1052 xyz52@gmail.com      9325408559         52
+       153       1053 xyz53@gmail.com      9688106545         53
+       154       1054 xyz54@gmail.com      9343011963         54
+       155       1055 xyz55@gmail.com      9212040710         55
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       156       1056 xyz56@gmail.com      9145038812         56
+       157       1057 xyz57@gmail.com      9705801094         57
+       158       1058 xyz58@gmail.com      9449644484         58
+       159       1059 xyz59@gmail.com      9180416208         59
+       160       1060 xyz60@gmail.com      9249242253         60
+       161       1061 xyz61@gmail.com      9453410204         61
+       162       1062 xyz62@gmail.com      9558464191         62
+       163       1063 xyz63@gmail.com      9531699573         63
+       164       1064 xyz64@gmail.com      9192034483         64
+       165       1065 xyz65@gmail.com      9207119590         65
+       166       1066 xyz66@gmail.com      9245843425         66
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       167       1067 xyz67@gmail.com      9082159991         67
+       168       1068 xyz68@gmail.com      9237370133         68
+       169       1069 xyz69@gmail.com      9270589616         69
+       170       1070 xyz70@gmail.com      9048014528         70
+       171       1071 xyz71@gmail.com      9146158988         71
+       172       1072 xyz72@gmail.com      9786875386         72
+       173       1073 xyz73@gmail.com      9732496506         73
+       174       1074 xyz74@gmail.com      9636483898         74
+       175       1075 xyz75@gmail.com      9110916003         75
+       176       1076 xyz76@gmail.com      9414178803         76
+       177       1077 xyz77@gmail.com      9598349137         77
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       178       1078 xyz78@gmail.com      9169598808         78
+       179       1079 xyz79@gmail.com      9099078846         79
+       180       1080 xyz80@gmail.com      9328315531         80
+       181       1081 xyz81@gmail.com      9490891691         81
+       182       1082 xyz82@gmail.com      9708997878         82
+       183       1083 xyz83@gmail.com      9693481141         83
+       184       1084 xyz84@gmail.com      9178282186         84
+       185       1085 xyz85@gmail.com      9548468107         85
+       186       1086 xyz86@gmail.com      9323027533         86
+       187       1087 xyz87@gmail.com      9585955161         87
+       188       1088 xyz88@gmail.com      9223888689         88
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       189       1089 xyz89@gmail.com      9688659137         89
+       190       1090 xyz90@gmail.com      9079004760         90
+       191       1091 xyz91@gmail.com      9514400771         91
+       192       1092 xyz92@gmail.com      9162587666         92
+       193       1093 xyz93@gmail.com      9057744502         93
+       194       1094 xyz94@gmail.com      9423313509         94
+       195       1095 xyz95@gmail.com      9320476821         95
+       196       1096 xyz96@gmail.com      9292753715         96
+       197       1097 xyz97@gmail.com      9073637409         97
+       198       1098 xyz98@gmail.com      9226331173         98
+       199       1099 xyz99@gmail.com      9736491049         99
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       200       1100 xyz100@gmail.com     9727339862        100
+       201       1101 xyz101@gmail.com     9356546712        101
+       202       1102 xyz102@gmail.com     9047611689        102
+       203       1103 xyz103@gmail.com     9632771408        103
+       204       1104 xyz104@gmail.com     9811288393        104
+       205       1105 xyz105@gmail.com     9071317561        105
+       206       1106 xyz106@gmail.com     9611066019        106
+       207       1107 xyz107@gmail.com     9298099053        107
+       208       1108 xyz108@gmail.com     9484048223        108
+       209       1109 xyz109@gmail.com     9467144609        109
+       210       1110 xyz110@gmail.com     9610645684        110
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       211       1111 xyz111@gmail.com     9125352305        111
+       212       1112 xyz112@gmail.com     9210699087        112
+       213       1113 xyz113@gmail.com     9368290134        113
+       214       1114 xyz114@gmail.com     9659719046        114
+       215       1115 xyz115@gmail.com     9673555442        115
+       216       1116 xyz116@gmail.com     9196567175        116
+       217       1117 xyz117@gmail.com     9274510471        117
+       218       1118 xyz118@gmail.com     9223290002        118
+       219       1119 xyz119@gmail.com     9015965044        119
+       220       1120 xyz120@gmail.com     9466701641        120
+       221       1121 xyz121@gmail.com     9073436781        121
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       222       1122 xyz122@gmail.com     9663680655        122
+       223       1123 xyz123@gmail.com     9021573665        123
+       224       1124 xyz124@gmail.com     9667629678        124
+       225       1125 xyz125@gmail.com     9475396850        125
+       226       1126 xyz126@gmail.com     9294858645        126
+       227       1127 xyz127@gmail.com     9732531095        127
+       228       1128 xyz128@gmail.com     9451208814        128
+       229       1129 xyz129@gmail.com     9488215403        129
+       230       1130 xyz130@gmail.com     9715614122        130
+       231       1131 xyz131@gmail.com     9682658313        131
+       232       1132 xyz132@gmail.com     9110940131        132
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       233       1133 xyz133@gmail.com     9497491113        133
+       234       1134 xyz134@gmail.com     9403073300        134
+       235       1135 xyz135@gmail.com     9140921514        135
+       236       1136 xyz136@gmail.com     9534207899        136
+       237       1137 xyz137@gmail.com     9570458383        137
+       238       1138 xyz138@gmail.com     9670317990        138
+       239       1139 xyz139@gmail.com     9819562670        139
+       240       1140 xyz140@gmail.com     9043697655        140
+       241       1141 xyz141@gmail.com     9459903675        141
+       242       1142 xyz142@gmail.com     9551112216        142
+       243       1143 xyz143@gmail.com     9210974803        143
+
+    USERID  FAMILY_ID MAIL_ID               MOBILE_NO   INDEXING
+---------- ---------- -------------------- ---------- ----------
+       244       1144 xyz144@gmail.com     9477130384        144
+       245       1145 xyz145@gmail.com     9736866643        145
+       246       1146 xyz146@gmail.com     9025668509        146
+       247       1147 xyz147@gmail.com     9605919925        147
+       248       1148 xyz148@gmail.com     9242828079        148
+       249       1149 xyz149@gmail.com     9793229427        149
+       250       1150 xyz150@gmail.com     9326608555        150
+
+150 rows selected.

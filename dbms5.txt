@@ -1,0 +1,795 @@
+SQL> insert into family_details values(1001,'VIVEKANAND','ACHARYA','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1002,'BIPIN','AGARWAL','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1003,'SUYOG','KHATRI','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1004,'MAHESH','AHUJA','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1005,'SURESH','ANAND','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1006,'RAMESH','PATEL','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1007,'RAJESH','REDDY','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1008,'ROHIT','ARYA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1009,'DEEPAK','BABU','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1010,'MAHENDRA','BHATT','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1011,'RAJVENDRA','BEDI','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1012,'RAJNEESH','VERMA','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1013,'MOHIT','CHOUDHARY','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1014,'MAYANK','CHAWALA','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1015,'SANJAY','DATTA','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1016,'MANOJ','DEOL','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1017,'SACHIN','DESHPANDE','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1018,'ANISH','DEWAN','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1019,'DINESH','KOHLI','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1020,'HARISH','MANGAL','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1021,'MAHAVEER','MALHOTRA','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1022,'ADARSH','JHA','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1023,'ABHAY','JOSHI','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1024,'ARIJIT','JAIN','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1025,'ALOK','KHANNA','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1026,'AMIT','GROVER','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1027,'ANMOL','KAUR','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1028,'ARJUN','KASHYAP','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1029,'BALVEER','GARG','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1030,'CHIRAG','GANDHI','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1031,'CHANDAN','GUPTA','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1032,'NAVAL','DASS','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1033,'GANESH','CHOPRA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1034,'GAURAV','DHAWAN','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1035,'GIRDHAR','DIXIT','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1036,'GOPAL','DUBEY','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1037,'RADHAKRISHNA','KAPOOR','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1038,'RAM','KHURANA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1039,'HITESH','SURANA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1040,'HEMRAJ','DESHMUSH','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1041,'DEV','CHAUHAN','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1042,'ISHWAR','GOSWAMI','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1043,'JAYVEER','GOEL','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1044,'JAGAT','DHILLON','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1045,'KARAN','KUMAR','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1046,'ARJUN','GILL','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1047,'KAMLESH','BATRA','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1048,'KAMAL','MEHTA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1049,'MAHAVIR','SAXENA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1050,'NAVEEN','MUKHARJEE','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1051,'NITIN','SHAH','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1052,'NEERAJ','RAO','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1053,'NARAYAN','SINGH','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1054,'NAKUL','ACHARYA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1055,'OMPRAKASH','AGARWAL','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1056,'LAKSHMAN','KHATRI','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1057,'BHARAT','AHUJA','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1058,'SHATRUGN','ANAND','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1059,'PRATAP','PATEL','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1060,'PREM','REDDY','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1061,'PRAKASH','ARYA','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1062,'RAJEEV','BABU','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1063,'RAJVEER','BHATT','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1064,'RAVI','BEDI','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1065,'RAVINDER','VERMA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1066,'ROHAN','CHOUDHARY','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1067,'ROSHAN','CHAWALA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1068,'SAHIL','DATTA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1069,'SACHIN','DEOL','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1070,'SAGAR','DESHPANDE','COLLECTOR','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1071,'BHUSHAN','DEWAN','OFFICER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1072,'SATEESH','KOHLI','COLLECTOR','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1073,'DHANANJAY','MANGAL','COLLECTOR','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1074,'SHIV','MALHOTRA','OFFICER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1075,'SHYAM','JHA','OFFICER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1076,'SHAKTI','SINGH','OFFICER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1077,'SURAJ','SETH','OFFICER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1078,'SURYA','SACHDEV','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1079,'VIVEKANAND','PANDEY','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1080,'BIPIN','MODI','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1081,'SUYOG','KHURANA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1082,'MAHESH','KAPOOR','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1083,'SURESH','AHUJA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1084,'RAMESH','DHAWAN','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1085,'RAJESH','GANGULY','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1086,'ROHIT','GOKHLE','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1087,'DEEPAK','AGARWAL','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1088,'MAHENDRA','IYER','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1089,'RAJVENDRA','APTE','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1090,'RAJNEESH','CHAKRABARTI','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1091,'MOHIT','AHLUWAILA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1092,'MAYANK','DALAL','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1093,'SANJAY','BASU','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1094,'MANOJ','ROY','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1095,'SACHIN','ANTHONY','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1096,'ANISH','ACHARYA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1097,'DINESH','AGARWAL','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1098,'HARISH','KHATRI','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1099,'MAHAVEER','AHUJA','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1100,'ADARSH','ANAND','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1101,'ABHAY','PATEL','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1102,'ARIJIT','REDDY','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1103,'ALOK','ARYA','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1104,'AMIT','BABU','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1105,'ANMOL','BHATT','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1106,'ARJUN','BEDI','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1107,'BALVEER','VERMA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1108,'CHIRAG','CHOUDHARY','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1109,'CHANDAN','CHAWALA','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1110,'NAVAL','DATTA','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1111,'GANESH','DEOL','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1112,'GAURAV','DESHPANDE','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1113,'GIRDHAR','DEWAN','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1114,'GOPAL','KOHLI','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1115,'RADHAKRISHNA','MANGAL','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1116,'RAM','MALHOTRA','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1117,'HITESH','JHA','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1118,'HEMRAJ','ARORA','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1119,'DEV','GERA','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1120,'ISHWAR','ADLAKHA','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1121,'JAYVEER','PIPLANI','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1122,'JAGAT','MALIK','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1123,'KARAN','AGARWAL','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1124,'ARJUN','AGARWAL','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1125,'KAMLESH','PATEL','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1126,'KAMAL','PATIL','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1127,'MAHAVIR','GAUTAM','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1128,'UTSAV','JINDAL','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1129,'TEJ','SHRIWASTAVA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1130,'SACHIN','SHARMA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1131,'GAURAV','SHARMA','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1132,'UMANG','GAUTAM','BUSINESS','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1133,'VIVEK','NAGAR','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1134,'VIKRAM','SAXENA','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1135,'VISHAL','GYANI','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1136,'VIJAY','KODE','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1137,'VARUN','SAHU','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1138,'VAUDEV','SURANA','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1139,'VIMAL','MITTAL','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1140,'VINAY','GARG','LAWYER','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1141,'ROHAN','SEKRA','TEACHER','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1142,'ROSHAN','JAIN','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1143,'SAHIL','VIJAYVARGIYA','DOCTOR','Middle class');
+
+1 row created.
+
+SQL> insert into family_details values(1144,'SACHIN','SAHU','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1145,'SAGAR','NUWAL','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1146,'BHUSHAN','KASHYAP','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1147,'SATEESH','KAPOOR','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1148,'DHANANJAY','JAIN','GOVERNMENT','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1149,'SHIV','MODI','PRIVATE','Upper class');
+
+1 row created.
+
+SQL> insert into family_details values(1150,'SHYAM','AGARWAL','ENGINEER','Middle class');
+
+1 row created.
+
+SQL> select*from family_details;
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1001 VIVEKANAND           ACHARYA              ENGINEER             Middle class
+      1002 BIPIN                AGARWAL              BUSINESS             Middle class
+      1003 SUYOG                KHATRI               TEACHER              Upper class
+      1004 MAHESH               AHUJA                LAWYER               Middle class
+      1005 SURESH               ANAND                DOCTOR               Middle class
+      1006 RAMESH               PATEL                TEACHER              Upper class
+      1007 RAJESH               REDDY                BUSINESS             Middle class
+      1008 ROHIT                ARYA                 TEACHER              Upper class
+      1009 DEEPAK               BABU                 TEACHER              Upper class
+      1010 MAHENDRA             BHATT                GOVERNMENT           Upper class
+      1011 RAJVENDRA            BEDI                 PRIVATE              Upper class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1012 RAJNEESH             VERMA                PRIVATE              Upper class
+      1013 MOHIT                CHOUDHARY            GOVERNMENT           Upper class
+      1014 MAYANK               CHAWALA              GOVERNMENT           Upper class
+      1015 SANJAY               DATTA                GOVERNMENT           Upper class
+      1016 MANOJ                DEOL                 LAWYER               Middle class
+      1017 SACHIN               DESHPANDE            LAWYER               Middle class
+      1018 ANISH                DEWAN                TEACHER              Upper class
+      1019 DINESH               KOHLI                DOCTOR               Middle class
+      1020 HARISH               MANGAL               DOCTOR               Middle class
+      1021 MAHAVEER             MALHOTRA             GOVERNMENT           Upper class
+      1022 ADARSH               JHA                  PRIVATE              Upper class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1023 ABHAY                JOSHI                PRIVATE              Upper class
+      1024 ARIJIT               JAIN                 PRIVATE              Upper class
+      1025 ALOK                 KHANNA               PRIVATE              Upper class
+      1026 AMIT                 GROVER               PRIVATE              Upper class
+      1027 ANMOL                KAUR                 LAWYER               Middle class
+      1028 ARJUN                KASHYAP              BUSINESS             Middle class
+      1029 BALVEER              GARG                 BUSINESS             Middle class
+      1030 CHIRAG               GANDHI               ENGINEER             Middle class
+      1031 CHANDAN              GUPTA                ENGINEER             Middle class
+      1032 NAVAL                DASS                 ENGINEER             Middle class
+      1033 GANESH               CHOPRA               TEACHER              Upper class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1034 GAURAV               DHAWAN               GOVERNMENT           Upper class
+      1035 GIRDHAR              DIXIT                TEACHER              Upper class
+      1036 GOPAL                DUBEY                PRIVATE              Upper class
+      1037 RADHAKRISHNA         KAPOOR               PRIVATE              Upper class
+      1038 RAM                  KHURANA              TEACHER              Upper class
+      1039 HITESH               SURANA               DOCTOR               Middle class
+      1040 HEMRAJ               DESHMUSH             DOCTOR               Middle class
+      1041 DEV                  CHAUHAN              DOCTOR               Middle class
+      1042 ISHWAR               GOSWAMI              DOCTOR               Middle class
+      1043 JAYVEER              GOEL                 BUSINESS             Middle class
+      1044 JAGAT                DHILLON              BUSINESS             Middle class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1045 KARAN                KUMAR                PRIVATE              Upper class
+      1046 ARJUN                GILL                 PRIVATE              Upper class
+      1047 KAMLESH              BATRA                GOVERNMENT           Upper class
+      1048 KAMAL                MEHTA                DOCTOR               Middle class
+      1049 MAHAVIR              SAXENA               TEACHER              Upper class
+      1050 NAVEEN               MUKHARJEE            LAWYER               Middle class
+      1051 NITIN                SHAH                 LAWYER               Middle class
+      1052 NEERAJ               RAO                  LAWYER               Middle class
+      1053 NARAYAN              SINGH                TEACHER              Upper class
+      1054 NAKUL                ACHARYA              DOCTOR               Middle class
+      1055 OMPRAKASH            AGARWAL              DOCTOR               Middle class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1056 LAKSHMAN             KHATRI               GOVERNMENT           Upper class
+      1057 BHARAT               AHUJA                PRIVATE              Upper class
+      1058 SHATRUGN             ANAND                GOVERNMENT           Upper class
+      1059 PRATAP               PATEL                GOVERNMENT           Upper class
+      1060 PREM                 REDDY                GOVERNMENT           Upper class
+      1061 PRAKASH              ARYA                 PRIVATE              Upper class
+      1062 RAJEEV               BABU                 ENGINEER             Middle class
+      1063 RAJVEER              BHATT                ENGINEER             Middle class
+      1064 RAVI                 BEDI                 TEACHER              Upper class
+      1065 RAVINDER             VERMA                TEACHER              Upper class
+      1066 ROHAN                CHOUDHARY            DOCTOR               Middle class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1067 ROSHAN               CHAWALA              DOCTOR               Middle class
+      1068 SAHIL                DATTA                TEACHER              Upper class
+      1069 SACHIN               DEOL                 DOCTOR               Middle class
+      1070 SAGAR                DESHPANDE            COLLECTOR            Upper class
+      1071 BHUSHAN              DEWAN                OFFICER              Upper class
+      1072 SATEESH              KOHLI                COLLECTOR            Upper class
+      1073 DHANANJAY            MANGAL               COLLECTOR            Upper class
+      1074 SHIV                 MALHOTRA             OFFICER              Upper class
+      1075 SHYAM                JHA                  OFFICER              Upper class
+      1076 SHAKTI               SINGH                OFFICER              Upper class
+      1077 SURAJ                SETH                 OFFICER              Upper class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1078 SURYA                SACHDEV              TEACHER              Upper class
+      1079 VIVEKANAND           PANDEY               DOCTOR               Middle class
+      1080 BIPIN                MODI                 DOCTOR               Middle class
+      1081 SUYOG                KHURANA              DOCTOR               Middle class
+      1082 MAHESH               KAPOOR               TEACHER              Upper class
+      1083 SURESH               AHUJA                TEACHER              Upper class
+      1084 RAMESH               DHAWAN               GOVERNMENT           Upper class
+      1085 RAJESH               GANGULY              GOVERNMENT           Upper class
+      1086 ROHIT                GOKHLE               PRIVATE              Upper class
+      1087 DEEPAK               AGARWAL              PRIVATE              Upper class
+      1088 MAHENDRA             IYER                 PRIVATE              Upper class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1089 RAJVENDRA            APTE                 ENGINEER             Middle class
+      1090 RAJNEESH             CHAKRABARTI          BUSINESS             Middle class
+      1091 MOHIT                AHLUWAILA            TEACHER              Upper class
+      1092 MAYANK               DALAL                LAWYER               Middle class
+      1093 SANJAY               BASU                 DOCTOR               Middle class
+      1094 MANOJ                ROY                  TEACHER              Upper class
+      1095 SACHIN               ANTHONY              BUSINESS             Middle class
+      1096 ANISH                ACHARYA              TEACHER              Upper class
+      1097 DINESH               AGARWAL              TEACHER              Upper class
+      1098 HARISH               KHATRI               GOVERNMENT           Upper class
+      1099 MAHAVEER             AHUJA                PRIVATE              Upper class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1100 ADARSH               ANAND                PRIVATE              Upper class
+      1101 ABHAY                PATEL                GOVERNMENT           Upper class
+      1102 ARIJIT               REDDY                GOVERNMENT           Upper class
+      1103 ALOK                 ARYA                 GOVERNMENT           Upper class
+      1104 AMIT                 BABU                 LAWYER               Middle class
+      1105 ANMOL                BHATT                LAWYER               Middle class
+      1106 ARJUN                BEDI                 TEACHER              Upper class
+      1107 BALVEER              VERMA                DOCTOR               Middle class
+      1108 CHIRAG               CHOUDHARY            DOCTOR               Middle class
+      1109 CHANDAN              CHAWALA              GOVERNMENT           Upper class
+      1110 NAVAL                DATTA                PRIVATE              Upper class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1111 GANESH               DEOL                 PRIVATE              Upper class
+      1112 GAURAV               DESHPANDE            PRIVATE              Upper class
+      1113 GIRDHAR              DEWAN                PRIVATE              Upper class
+      1114 GOPAL                KOHLI                PRIVATE              Upper class
+      1115 RADHAKRISHNA         MANGAL               LAWYER               Middle class
+      1116 RAM                  MALHOTRA             BUSINESS             Middle class
+      1117 HITESH               JHA                  BUSINESS             Middle class
+      1118 HEMRAJ               ARORA                ENGINEER             Middle class
+      1119 DEV                  GERA                 ENGINEER             Middle class
+      1120 ISHWAR               ADLAKHA              ENGINEER             Middle class
+      1121 JAYVEER              PIPLANI              TEACHER              Upper class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1122 JAGAT                MALIK                GOVERNMENT           Upper class
+      1123 KARAN                AGARWAL              TEACHER              Upper class
+      1124 ARJUN                AGARWAL              PRIVATE              Upper class
+      1125 KAMLESH              PATEL                PRIVATE              Upper class
+      1126 KAMAL                PATIL                TEACHER              Upper class
+      1127 MAHAVIR              GAUTAM               DOCTOR               Middle class
+      1128 UTSAV                JINDAL               DOCTOR               Middle class
+      1129 TEJ                  SHRIWASTAVA          DOCTOR               Middle class
+      1130 SACHIN               SHARMA               DOCTOR               Middle class
+      1131 GAURAV               SHARMA               BUSINESS             Middle class
+      1132 UMANG                GAUTAM               BUSINESS             Middle class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1133 VIVEK                NAGAR                PRIVATE              Upper class
+      1134 VIKRAM               SAXENA               PRIVATE              Upper class
+      1135 VISHAL               GYANI                GOVERNMENT           Upper class
+      1136 VIJAY                KODE                 DOCTOR               Middle class
+      1137 VARUN                SAHU                 TEACHER              Upper class
+      1138 VAUDEV               SURANA               LAWYER               Middle class
+      1139 VIMAL                MITTAL               LAWYER               Middle class
+      1140 VINAY                GARG                 LAWYER               Middle class
+      1141 ROHAN                SEKRA                TEACHER              Upper class
+      1142 ROSHAN               JAIN                 DOCTOR               Middle class
+      1143 SAHIL                VIJAYVARGIYA         DOCTOR               Middle class
+
+ FAMILY_ID FATHER_NAME          FAMILY_NAME          FATHER_OCC           FAMILY_STATUS
+---------- -------------------- -------------------- -------------------- --------------------
+      1144 SACHIN               SAHU                 GOVERNMENT           Upper class
+      1145 SAGAR                NUWAL                PRIVATE              Upper class
+      1146 BHUSHAN              KASHYAP              GOVERNMENT           Upper class
+      1147 SATEESH              KAPOOR               GOVERNMENT           Upper class
+      1148 DHANANJAY            JAIN                 GOVERNMENT           Upper class
+      1149 SHIV                 MODI                 PRIVATE              Upper class
+      1150 SHYAM                AGARWAL              ENGINEER             Middle class
+
+150 rows selected.

@@ -1,0 +1,804 @@
+SQL> create table details(DOB date,
+  2  age number(3),
+  3  height number(5),
+  4  mobile_no number(11),
+  5  colour varchar2(10),
+  6  primary key (mobile_no));
+
+Table created.
+
+SQL> insert into details values('27-jan-1994',28,132,9094871954,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('13-may-1993',29,160,9776572469,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('05-feb-1991',31,143,9500338154,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('09-mar-1994',28,137,9264340026,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('26-mar-1993',29,133,9020480705,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('14-aug-1997',25,185,9381444203,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('26-apr-1999',23,180,9150402852,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('28-dec-1996',25,127,9799030182,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('27-nov-1999',22,175,9745977803,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('11-nov-1990',31,152,9703601612,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('14-jun-1995',27,167,9613582917,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('02-nov-1995',26,158,9624344749,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('27-jul-1991',31,185,9209507139,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('19-jan-1990',32,168,9454018328,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('08-aug-1994',28,142,9129902340,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('04-mar-1996',26,170,9652860181,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('28-aug-1992',30,160,9263446834,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('16-may-1993',29,140,9543076513,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('15-feb-1994',28,180,9550891607,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('14-nov-1992',29,173,9085099228,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('21-mar-1991',31,153,9377759504,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('03-apr-1995',27,130,9553170390,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('29-sep-1990',32,122,9408338770,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('17-jun-1992',30,127,9047910832,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('20-may-1991',31,120,9296932193,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('16-jan-1993',29,183,9698369629,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('04-aug-1999',23,157,9634304817,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('30-aug-1997',25,123,9590060778,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('06-may-1997',25,157,9439053946,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('12-jan-1990',32,135,9033775333,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('16-aug-1996',26,162,9420238737,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('09-may-1990',32,165,9516663232,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('20-sep-1994',28,162,9772642662,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('14-jun-1998',24,145,9223120333,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('28-jan-1998',24,133,9528456131,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('16-aug-1990',32,165,9703455504,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('09-jan-1997',25,175,9613360732,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('15-mar-1992',30,180,9468888014,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('26-jan-1994',28,170,9463135896,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('02-jan-1999',23,127,9398032269,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('04-jan-1992',30,125,9538165652,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('28-jul-1991',31,162,9203151666,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('16-mar-1997',25,150,9519853804,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('15-dec-1990',31,130,9704207898,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('25-mar-1997',25,145,9411681320,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('06-nov-1995',26,147,9758994065,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('15-sep-1994',28,167,9690451681,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('12-jan-1990',32,150,9498603030,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('08-sep-1991',31,170,9708747450,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('02-dec-1991',30,173,9722451826,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('21-apr-1992',30,150,9006502373,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('16-may-1998',24,127,9325408559,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('22-jul-1992',30,125,9688106545,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('23-dec-1990',31,147,9343011963,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('18-sep-1990',32,122,9212040710,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('14-sep-1997',25,140,9145038812,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('07-jul-1991',31,170,9705801094,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('09-may-1991',31,127,9449644484,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('09-sep-1990',32,150,9180416208,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('27-may-1994',28,165,9249242253,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('24-jun-1993',29,148,9453410204,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('26-feb-1995',27,160,9558464191,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('25-aug-1993',29,172,9531699573,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('16-apr-1999',23,172,9192034483,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('13-jan-1999',23,147,9207119590,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('19-may-1993',29,158,9245843425,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('05-jun-1999',23,175,9082159991,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('10-jul-1998',24,157,9237370133,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('19-feb-1999',23,137,9270589616,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('15-aug-1997',25,142,9048014528,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('11-sep-1992',30,175,9146158988,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('25-jul-1996',26,140,9786875386,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('11-jun-1992',30,175,9732496506,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('18-apr-1999',23,142,9636483898,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('27-sep-1990',32,123,9110916003,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('17-jul-1992',30,150,9414178803,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('23-nov-1996',25,165,9598349137,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('24-dec-1998',23,148,9169598808,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('17-mar-1995',27,167,9099078846,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('07-jul-1997',25,157,9328315531,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('03-feb-1997',25,145,9490891691,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('17-jan-1995',27,147,9708997878,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('10-jan-1999',23,160,9693481141,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('30-sep-1992',30,152,9178282186,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('04-oct-1994',28,170,9548468107,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('20-aug-1996',26,150,9323027533,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('26-feb-1997',25,140,9585955161,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('17-dec-1990',31,163,9223888689,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('03-feb-1992',30,162,9688659137,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('10-sep-1992',30,123,9079004760,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('12-oct-1996',26,125,9514400771,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('31-mar-1998',24,110,9162587666,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('14-aug-1998',24,157,9057744502,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('25-feb-1995',27,170,9423313509,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('04-nov-1997',24,167,9320476821,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('19-jul-1995',27,160,9292753715,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('09-jan-1992',30,122,9073637409,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('13-feb-1990',32,110,9226331173,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('13-dec-1998',23,163,9736491049,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('03-nov-1992',29,135,9727339862,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('29-aug-1995',27,140,9356546712,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('25-jul-1992',30,117,9047611689,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('10-sep-1995',27,150,9632771408,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('22-aug-1999',23,122,9811288393,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('18-aug-1992',30,140,9071317561,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('06-feb-1998',24,148,9611066019,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('04-dec-1997',24,153,9298099053,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('08-feb-1990',32,130,9484048223,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('19-jan-1996',26,158,9467144609,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('10-sep-1997',25,132,9610645684,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('22-oct-1990',31,138,9125352305,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('05-aug-1991',31,152,9210699087,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('05-feb-1994',28,150,9368290134,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('31-aug-1992',30,172,9659719046,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('12-jul-1990',32,128,9673555442,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('11-jan-1991',31,157,9196567175,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('28-jan-1997',25,137,9274510471,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('04-jul-1994',28,120,9223290002,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('07-sep-1994',28,135,9015965044,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('06-apr-1999',23,120,9466701641,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('24-feb-1990',32,112,9073436781,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('27-jun-1994',28,150,9663680655,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('06-dec-1998',23,155,9021573665,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('20-nov-1990',31,132,9667629678,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('21-mar-1995',27,143,9475396850,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('21-nov-1996',25,168,9294858645,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('24-jun-1999',23,165,9732531095,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('16-aug-1997',25,128,9451208814,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('29-mar-1997',25,165,9488215403,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('08-dec-1994',27,137,9715614122,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('10-apr-1998',24,125,9682658313,'BROWN');
+
+1 row created.
+
+SQL> insert into details values('28-dec-1999',22,122,9110940131,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('04-jun-1992',30,170,9497491113,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('19-oct-1994',27,150,9403073300,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('07-sep-1997',25,127,9140921514,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('17-jun-1999',23,110,9534207899,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('12-aug-1999',23,127,9570458383,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('25-jul-1993',29,150,9670317990,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('01-dec-1991',30,110,9819562670,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('17-aug-1996',26,133,9043697655,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('09-dec-1999',22,110,9459903675,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('30-aug-1990',32,165,9551112216,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('02-jun-1995',27,160,9210974803,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('29-oct-1999',22,150,9477130384,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('20-mar-1996',26,127,9736866643,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('24-jun-1993',29,132,9025668509,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('04-oct-1993',29,135,9605919925,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('07-jan-1990',32,122,9242828079,'FAIR');
+
+1 row created.
+
+SQL> insert into details values('19-jan-1998',24,112,9793229427,'DUSKY');
+
+1 row created.
+
+SQL> insert into details values('25-jan-1999',23,152,9326608555,'FAIR');
+
+1 row created.
+
+SQL> select*from details;
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+27-JAN-94         28        132 9094871954 FAIR
+13-MAY-93         29        160 9776572469 DUSKY
+05-FEB-91         31        143 9500338154 BROWN
+09-MAR-94         28        137 9264340026 BROWN
+26-MAR-93         29        133 9020480705 DUSKY
+14-AUG-97         25        185 9381444203 DUSKY
+26-APR-99         23        180 9150402852 FAIR
+28-DEC-96         25        127 9799030182 FAIR
+27-NOV-99         22        175 9745977803 FAIR
+11-NOV-90         31        152 9703601612 FAIR
+14-JUN-95         27        167 9613582917 DUSKY
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+02-NOV-95         26        158 9624344749 BROWN
+27-JUL-91         31        185 9209507139 BROWN
+19-JAN-90         32        168 9454018328 BROWN
+08-AUG-94         28        142 9129902340 BROWN
+04-MAR-96         26        170 9652860181 DUSKY
+28-AUG-92         30        160 9263446834 BROWN
+16-MAY-93         29        140 9543076513 DUSKY
+15-FEB-94         28        180 9550891607 BROWN
+14-NOV-92         29        173 9085099228 BROWN
+21-MAR-91         31        153 9377759504 BROWN
+03-APR-95         27        130 9553170390 FAIR
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+29-SEP-90         32        122 9408338770 FAIR
+17-JUN-92         30        127 9047910832 DUSKY
+20-MAY-91         31        120 9296932193 BROWN
+16-JAN-93         29        183 9698369629 FAIR
+04-AUG-99         23        157 9634304817 FAIR
+30-AUG-97         25        123 9590060778 FAIR
+06-MAY-97         25        157 9439053946 FAIR
+12-JAN-90         32        135 9033775333 DUSKY
+16-AUG-96         26        162 9420238737 DUSKY
+09-MAY-90         32        165 9516663232 DUSKY
+20-SEP-94         28        162 9772642662 BROWN
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+14-JUN-98         24        145 9223120333 BROWN
+28-JAN-98         24        133 9528456131 BROWN
+16-AUG-90         32        165 9703455504 BROWN
+09-JAN-97         25        175 9613360732 DUSKY
+15-MAR-92         30        180 9468888014 DUSKY
+26-JAN-94         28        170 9463135896 BROWN
+02-JAN-99         23        127 9398032269 BROWN
+04-JAN-92         30        125 9538165652 BROWN
+28-JUL-91         31        162 9203151666 FAIR
+16-MAR-97         25        150 9519853804 FAIR
+15-DEC-90         31        130 9704207898 FAIR
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+25-MAR-97         25        145 9411681320 DUSKY
+06-NOV-95         26        147 9758994065 FAIR
+15-SEP-94         28        167 9690451681 BROWN
+12-JAN-90         32        150 9498603030 BROWN
+08-SEP-91         31        170 9708747450 DUSKY
+02-DEC-91         30        173 9722451826 FAIR
+21-APR-92         30        150 9006502373 FAIR
+16-MAY-98         24        127 9325408559 BROWN
+22-JUL-92         30        125 9688106545 BROWN
+23-DEC-90         31        147 9343011963 FAIR
+18-SEP-90         32        122 9212040710 DUSKY
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+14-SEP-97         25        140 9145038812 DUSKY
+07-JUL-91         31        170 9705801094 DUSKY
+09-MAY-91         31        127 9449644484 DUSKY
+09-SEP-90         32        150 9180416208 FAIR
+27-MAY-94         28        165 9249242253 FAIR
+24-JUN-93         29        148 9453410204 DUSKY
+26-FEB-95         27        160 9558464191 FAIR
+25-AUG-93         29        172 9531699573 FAIR
+16-APR-99         23        172 9192034483 DUSKY
+13-JAN-99         23        147 9207119590 DUSKY
+19-MAY-93         29        158 9245843425 DUSKY
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+05-JUN-99         23        175 9082159991 DUSKY
+10-JUL-98         24        157 9237370133 DUSKY
+19-FEB-99         23        137 9270589616 FAIR
+15-AUG-97         25        142 9048014528 DUSKY
+11-SEP-92         30        175 9146158988 FAIR
+25-JUL-96         26        140 9786875386 DUSKY
+11-JUN-92         30        175 9732496506 BROWN
+18-APR-99         23        142 9636483898 DUSKY
+27-SEP-90         32        123 9110916003 BROWN
+17-JUL-92         30        150 9414178803 BROWN
+23-NOV-96         25        165 9598349137 BROWN
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+24-DEC-98         23        148 9169598808 BROWN
+17-MAR-95         27        167 9099078846 BROWN
+07-JUL-97         25        157 9328315531 BROWN
+03-FEB-97         25        145 9490891691 DUSKY
+17-JAN-95         27        147 9708997878 DUSKY
+10-JAN-99         23        160 9693481141 DUSKY
+30-SEP-92         30        152 9178282186 DUSKY
+04-OCT-94         28        170 9548468107 FAIR
+20-AUG-96         26        150 9323027533 FAIR
+26-FEB-97         25        140 9585955161 DUSKY
+17-DEC-90         31        163 9223888689 DUSKY
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+03-FEB-92         30        162 9688659137 FAIR
+10-SEP-92         30        123 9079004760 FAIR
+12-OCT-96         26        125 9514400771 FAIR
+31-MAR-98         24        110 9162587666 FAIR
+14-AUG-98         24        157 9057744502 FAIR
+25-FEB-95         27        170 9423313509 FAIR
+04-NOV-97         24        167 9320476821 FAIR
+19-JUL-95         27        160 9292753715 FAIR
+09-JAN-92         30        122 9073637409 FAIR
+13-FEB-90         32        110 9226331173 FAIR
+13-DEC-98         23        163 9736491049 FAIR
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+03-NOV-92         29        135 9727339862 FAIR
+29-AUG-95         27        140 9356546712 FAIR
+25-JUL-92         30        117 9047611689 FAIR
+10-SEP-95         27        150 9632771408 FAIR
+22-AUG-99         23        122 9811288393 FAIR
+18-AUG-92         30        140 9071317561 DUSKY
+06-FEB-98         24        148 9611066019 DUSKY
+04-DEC-97         24        153 9298099053 DUSKY
+08-FEB-90         32        130 9484048223 DUSKY
+19-JAN-96         26        158 9467144609 DUSKY
+10-SEP-97         25        132 9610645684 DUSKY
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+22-OCT-90         31        138 9125352305 DUSKY
+05-AUG-91         31        152 9210699087 DUSKY
+05-FEB-94         28        150 9368290134 DUSKY
+31-AUG-92         30        172 9659719046 DUSKY
+12-JUL-90         32        128 9673555442 DUSKY
+11-JAN-91         31        157 9196567175 FAIR
+28-JAN-97         25        137 9274510471 FAIR
+04-JUL-94         28        120 9223290002 DUSKY
+07-SEP-94         28        135 9015965044 FAIR
+06-APR-99         23        120 9466701641 FAIR
+24-FEB-90         32        112 9073436781 FAIR
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+27-JUN-94         28        150 9663680655 DUSKY
+06-DEC-98         23        155 9021573665 DUSKY
+20-NOV-90         31        132 9667629678 FAIR
+21-MAR-95         27        143 9475396850 FAIR
+21-NOV-96         25        168 9294858645 FAIR
+24-JUN-99         23        165 9732531095 FAIR
+16-AUG-97         25        128 9451208814 BROWN
+29-MAR-97         25        165 9488215403 BROWN
+08-DEC-94         27        137 9715614122 BROWN
+10-APR-98         24        125 9682658313 BROWN
+28-DEC-99         22        122 9110940131 FAIR
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+04-JUN-92         30        170 9497491113 FAIR
+19-OCT-94         27        150 9403073300 FAIR
+07-SEP-97         25        127 9140921514 FAIR
+17-JUN-99         23        110 9534207899 DUSKY
+12-AUG-99         23        127 9570458383 DUSKY
+25-JUL-93         29        150 9670317990 DUSKY
+01-DEC-91         30        110 9819562670 DUSKY
+17-AUG-96         26        133 9043697655 DUSKY
+09-DEC-99         22        110 9459903675 DUSKY
+30-AUG-90         32        165 9551112216 DUSKY
+02-JUN-95         27        160 9210974803 DUSKY
+
+DOB              AGE     HEIGHT  MOBILE_NO COLOUR
+--------- ---------- ---------- ---------- ----------
+29-OCT-99         22        150 9477130384 DUSKY
+20-MAR-96         26        127 9736866643 DUSKY
+24-JUN-93         29        132 9025668509 FAIR
+04-OCT-93         29        135 9605919925 FAIR
+07-JAN-90         32        122 9242828079 FAIR
+19-JAN-98         24        112 9793229427 DUSKY
+25-JAN-99         23        152 9326608555 FAIR
+
+150 rows selected.

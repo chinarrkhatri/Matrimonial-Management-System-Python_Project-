@@ -1,0 +1,784 @@
+
+SQL> insert into info values(106,'Akshay','14-aug-1997','DELHI','DELHI','MALE');
+
+1 row created.
+
+SQL> insert into info values(107,'Anand','26-apr-1999','MUMBAI','MUMBAI','MALE');
+
+1 row created.
+
+SQL> insert into info values(108,'Anil','28-dec-1996','CHENNAI','CHENNAI','MALE');
+
+1 row created.
+
+SQL> insert into info values(109,'Ari','27-nov-1999','KOLKATA','KOLKATA','MALE');
+
+1 row created.
+
+SQL> insert into info values(110,'Arian','11-nov-1990','GUWAHATI','GUWAHATI','MALE');
+
+1 row created.
+
+SQL> insert into info values(111,'Arjun','14-jun-1995','MUMBAI','JAIPUR','MALE');
+
+1 row created.
+
+SQL> insert into info values(112,'Armaan','02-nov-1995','CHENNAI','KOTA','MALE');
+
+1 row created.
+
+SQL> insert into info values(113,'Arun','27-jul-1991','KOLKATA','BARAN','MALE');
+
+1 row created.
+
+SQL> insert into info values(114,'Aum','19-jan-1990','KOTA','JHALAWAR','MALE');
+
+1 row created.
+
+SQL> insert into info values(115,'Avi','08-aug-1994','BARAN','INDORE','MALE');
+
+1 row created.
+
+SQL> insert into info values(116,'Ayaan','04-mar-1996','JHALAWAR','DELHI','MALE');
+
+1 row created.
+
+SQL> insert into info values(117,'Bodhi','28-aug-1992','INDORE','MATHURA','MALE');
+
+1 row created.
+
+SQL> insert into info values(118,'Daksh','16-may-1993','DELHI','AGRA','MALE');
+
+1 row created.
+
+SQL> insert into info values(119,'Dev','15-feb-1994','MUMBAI','AGRA','MALE');
+
+1 row created.
+
+SQL> insert into info values(120,'Eshaan','14-nov-1992','CHENNAI','GAYA','MALE');
+
+1 row created.
+
+SQL> insert into info values(121,'Ishan','21-mar-1991','KOLKATA','PATNA','MALE');
+
+1 row created.
+
+SQL> insert into info values(122,'Jahan','03-apr-1995','GUWAHATI','CHATTISGARH','MALE');
+
+1 row created.
+
+SQL> insert into info values(123,'Jaiden','29-sep-1990','JAIPUR','KOTA','MALE');
+
+1 row created.
+
+SQL> insert into info values(124,'Jay','17-jun-1992','KOTA','KOTA','MALE');
+
+1 row created.
+
+SQL> insert into info values(125,'Jiyan','20-may-1991','BARAN','BUNDI','MALE');
+
+1 row created.
+
+SQL> insert into info values(126,'Kabir','16-jan-1993','JHALAWAR','DELHI','MALE');
+
+1 row created.
+
+SQL> insert into info values(127,'Kahan','04-aug-1999','INDORE','CHANDIGARH','MALE');
+
+1 row created.
+
+SQL> insert into info values(128,'Kailash','30-aug-1997','DELHI','BHILWARA','MALE');
+
+1 row created.
+
+SQL> insert into info values(129,'Kaiyen','06-may-1997','MATHURA','UDAIPUR','MALE');
+
+1 row created.
+
+SQL> insert into info values(130,'Kalpen','12-jan-1990','AGRA','NOIDA','MALE');
+
+1 row created.
+
+SQL> insert into info values(131,'Karam','16-aug-1996','AGRA','JHALANDAR','MALE');
+
+1 row created.
+
+SQL> insert into info values(132,'Karthik','09-may-1990','GAYA','AMRITSAR','MALE');
+
+1 row created.
+
+SQL> insert into info values(133,'Kavish','20-sep-1994','PATNA','BANGLORE','MALE');
+
+1 row created.
+
+SQL> insert into info values(134,'Kiaan','14-jun-1998','CHATTISGARH','OOTY','MALE');
+
+1 row created.
+
+SQL> insert into info values(135,'Krish','28-jan-1998','KOTA','MYSORE','MALE');
+
+1 row created.
+
+SQL> insert into info values(136,'Kriyan','16-aug-1990','KOTA','SHIMLA','MALE');
+
+1 row created.
+
+SQL> insert into info values(137,'Laksh','09-jan-1997','BUNDI','MANALI','MALE');
+
+1 row created.
+
+SQL> insert into info values(138,'Manav','15-mar-1992','DELHI','GUWAHATI','MALE');
+
+1 row created.
+
+SQL> insert into info values(139,'Milan','26-jan-1994','CHANDIGARH','AHEMDABAD','MALE');
+
+1 row created.
+
+SQL> insert into info values(140,'Mivan','02-jan-1999','BHILWARA','SURAT','MALE');
+
+1 row created.
+
+SQL> insert into info values(141,'Mohan','04-jan-1992','UDAIPUR','PANAJI','MALE');
+
+1 row created.
+
+SQL> insert into info values(142,'Moksh','28-jul-1991','NOIDA','UJJAIN','MALE');
+
+1 row created.
+
+SQL> insert into info values(143,'Nayan','16-mar-1997','JHALANDAR','HYDERABAD','MALE');
+
+1 row created.
+
+SQL> insert into info values(144,'Neeraj','15-dec-1990','AMRITSAR','CHANDIGARH','MALE');
+
+1 row created.
+
+SQL> insert into info values(145,'Nikhil','25-mar-1997','BANGLORE','BHILWARA','MALE');
+
+1 row created.
+
+SQL> insert into info values(146,'Nirmay','06-nov-1995','OOTY','UDAIPUR','MALE');
+
+1 row created.
+
+SQL> insert into info values(147,'Nishan','15-sep-1994','MYSORE','NOIDA','MALE');
+
+1 row created.
+
+SQL> insert into info values(148,'Nitin','12-jan-1990','SHIMLA','JHALANDAR','MALE');
+
+1 row created.
+
+SQL> insert into info values(149,'Niyam','08-sep-1991','MANALI','AMRITSAR','MALE');
+
+1 row created.
+
+SQL> insert into info values(150,'Ohm','02-dec-1991','GUWAHATI','BANGLORE','MALE');
+
+1 row created.
+
+SQL> insert into info values(151,'Ovi','21-apr-1992','AHEMDABAD','OOTY','MALE');
+
+1 row created.
+
+SQL> insert into info values(152,'Parth','16-may-1998','SURAT','MYSORE','MALE');
+
+1 row created.
+
+SQL> insert into info values(153,'Pavan','22-jul-1992','PANAJI','SHIMLA','MALE');
+
+1 row created.
+
+SQL> insert into info values(154,'Priyam','23-dec-1990','UJJAIN','MANALI','MALE');
+
+1 row created.
+
+SQL> insert into info values(155,'Rajiv','18-sep-1990','HYDERABAD','GUWAHATI','MALE');
+
+1 row created.
+
+SQL> insert into info values(156,'Rajveer','14-sep-1997','CHANDIGARH','AHEMDABAD','MALE');
+
+1 row created.
+
+SQL> insert into info values(157,'Revan','07-jul-1991','BHILWARA','SURAT','MALE');
+
+1 row created.
+
+SQL> insert into info values(158,'Ridhan','09-may-1991','UDAIPUR','PANAJI','MALE');
+
+1 row created.
+
+SQL> insert into info values(159,'Rishi','09-sep-1990','NOIDA','UJJAIN','MALE');
+
+1 row created.
+
+SQL> insert into info values(160,'Rithvik','27-may-1994','JHALANDAR','HYDERABAD','MALE');
+
+1 row created.
+
+SQL> insert into info values(161,'Riyan','24-jun-1993','AMRITSAR','CHITTORGARH','MALE');
+
+1 row created.
+
+SQL> insert into info values(162,'Rohan','26-feb-1995','BANGLORE','JODHPUR','MALE');
+
+1 row created.
+
+SQL> insert into info values(163,'Rudra','25-aug-1993','OOTY','JAISALMER','MALE');
+
+1 row created.
+
+SQL> insert into info values(164,'Sachin','16-apr-1999','MYSORE','RANTHAMBORE','MALE');
+
+1 row created.
+
+SQL> insert into info values(165,'Sahil','13-jan-1999','SHIMLA','PUSHKAR','MALE');
+
+1 row created.
+
+SQL> insert into info values(166,'Sai','19-may-1993','MANALI','AJMER','MALE');
+
+1 row created.
+
+SQL> insert into info values(167,'Sajan','05-jun-1999','GUWAHATI','SAWAI MADHOPUR','MALE');
+
+1 row created.
+
+SQL> insert into info values(168,'Samardh','10-jul-1998','AHEMDABAD','KOLKATA','MALE');
+
+1 row created.
+
+SQL> insert into info values(169,'Samay','19-feb-1999','SURAT','KOTA','MALE');
+
+1 row created.
+
+SQL> insert into info values(170,'Sanjay','15-aug-1997','PANAJI','BARAN','MALE');
+
+1 row created.
+
+SQL> insert into info values(171,'Sayan','11-sep-1992','UJJAIN','JHALAWAR','MALE');
+
+1 row created.
+
+SQL> insert into info values(172,'Shaan','25-jul-1996','HYDERABAD','INDORE','MALE');
+
+1 row created.
+
+SQL> insert into info values(173,'Shikhar','11-jun-1992','CHITTORGARH','DELHI','MALE');
+
+1 row created.
+
+SQL> insert into info values(174,'Siddh','18-apr-1999','JODHPUR','MUMBAI','MALE');
+
+1 row created.
+
+SQL> insert into info values(175,'Sohum','27-sep-1990','JAISALMER','CHENNAI','MALE');
+
+1 row created.
+
+SQL> insert into info values(176,'Tej','17-jul-1992','RANTHAMBORE','KOLKATA','MALE');
+
+1 row created.
+
+SQL> insert into info values(177,'Vardan','23-nov-1996','PUSHKAR','GUWAHATI','MALE');
+
+1 row created.
+
+SQL> insert into info values(178,'Veer','24-dec-1998','AJMER','JAIPUR','MALE');
+
+1 row created.
+
+SQL> insert into info values(179,'Vihan','17-mar-1995','SAWAI MADHOPUR','KOTA','MALE');
+
+1 row created.
+
+SQL> insert into info values(180,'Vikram','07-jul-1997','MOUNT ABU','BARAN','MALE');
+
+1 row created.
+
+SQL> insert into info values(181,'Vimal','03-feb-1997','ALWAR','JHALAWAR','MALE');
+
+1 row created.
+
+SQL> insert into info values(182,'Viraj','17-jan-1995','SIKAR','INDORE','MALE');
+
+1 row created.
+
+SQL> insert into info values(183,'Yash','10-jan-1999','CHURU','DELHI','MALE');
+
+1 row created.
+
+SQL> insert into info values(184,'Zayn','30-sep-1992','KISHANGARH','MATHURA','MALE');
+
+1 row created.
+
+SQL> insert into info values(185,'Zian','04-oct-1994','SHIRPUR','AGRA','MALE');
+
+1 row created.
+
+SQL> insert into info values(186,'Aadhavi','20-aug-1996','BARMER','AGRA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(187,'Aanya','26-feb-1997','DHULE','GAYA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(188,'Aarya','17-dec-1990','BHOPAL','PATNA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(189,'Aashvi','03-feb-1992','NAGADA','CHATTISGARH','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(190,'Alani','10-sep-1992','BEGUSARAI','KOTA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(191,'Amara','12-oct-1996','NAGORE','KOTA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(192,'Amulya','31-mar-1998','TONK','BUNDI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(193,'Aniya','14-aug-1998','JAIPUR','DELHI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(194,'Anushka','25-feb-1995','DEOLI','CHANDIGARH','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(195,'Aria','04-nov-1997','BUNDI','BHILWARA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(196,'Ayla','19-jul-1995','CHIPABADOD','UDAIPUR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(197,'Devina','09-jan-1992','KANPUR','NOIDA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(198,'Divya','13-feb-1990','JAIPUR','JHALANDAR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(199,'Eesha','13-dec-1998','VARANASI','AMRITSAR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(200,'Farida','03-nov-1992','SITAPUR','BANGLORE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(201,'Imara','29-aug-1995','TONK','OOTY','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(202,'Jasmine','25-jul-1992','CHIPABADOD','MYSORE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(203,'Jaya','10-sep-1995','BARELI','SHIMLA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(204,'Jhansi','22-aug-1999','TONK','MANALI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(205,'Jivika','18-aug-1992','DEOLI','GUWAHATI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(206,'Jiyana','06-feb-1998','CHANDIGARH','AHEMDABAD','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(207,'Kareena','04-dec-1997','BHILWARA','SURAT','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(208,'Kavya','08-feb-1990','UDAIPUR','PANAJI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(209,'Khushi','19-jan-1996','NOIDA','UJJAIN','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(210,'Kimaya','10-sep-1997','JHALANDAR','HYDERABAD','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(211,'Kiyana','22-oct-1990','AMRITSAR','CHANDIGARH','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(212,'Lakshmi','05-aug-1991','BANGLORE','BHILWARA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(213,'Lavanya','05-feb-1994','OOTY','UDAIPUR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(214,'Liya','31-aug-1992','MYSORE','NOIDA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(215,'Mahi','12-jul-1990','SHIMLA','JHALANDAR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(216,'Maya','11-jan-1991','MANALI','AMRITSAR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(217,'Meera','28-jan-1997','GUWAHATI','BANGLORE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(218,'Mila','04-jul-1994','AHEMDABAD','OOTY','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(219,'Mirza','07-sep-1994','SURAT','MYSORE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(220,'Misha','06-apr-1999','PANAJI','SHIMLA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(221,'Myra','24-feb-1990','UJJAIN','MANALI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(222,'Navi','27-jun-1994','HYDERABAD','GUWAHATI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(223,'Navya','06-dec-1998','RANTHAMBORE','AHEMDABAD','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(224,'Nevaeh','20-nov-1990','PUSHKAR','SURAT','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(225,'Nidhi','21-mar-1995','AJMER','PANAJI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(226,'Nihira','21-nov-1996','SAWAI MADHOPUR','UJJAIN','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(227,'Nila','24-jun-1999','MOUNT ABU','HYDERABAD','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(228,'Nirvi','16-aug-1997','ALWAR','CHITTORGARH','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(229,'Nisha','29-mar-1997','SIKAR','JODHPUR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(230,'Nyra','08-dec-1994','CHURU','JAISALMER','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(231,'Prisha','10-apr-1998','KISHANGARH','RANTHAMBORE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(232,'Pritha','28-dec-1999','SHIRPUR','PUSHKAR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(233,'Priya','04-jun-1992','BARMER','AJMER','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(234,'Rahi','19-oct-1994','DHULE','SAWAI MADHOPUR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(235,'Ranchi','07-sep-1997','BHOPAL','KISHANGARH','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(236,'Ria','17-jun-1999','NAGADA','SHIRPUR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(237,'Roja','12-aug-1999','BEGUSARAI','BARMER','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(238,'Ruhi','25-jul-1993','NAGORE','DHULE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(239,'Saanvi','01-dec-1991','JHALANDAR','BHOPAL','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(240,'Sahara','17-aug-1996','AMRITSAR','NAGADA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(241,'Saiya','09-dec-1999','BANGLORE','BEGUSARAI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(242,'Sajani','30-aug-1990','OOTY','NAGORE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(243,'Samara','02-jun-1995','MYSORE','JHALANDAR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(244,'Sana','29-oct-1999','SHIMLA','AMRITSAR','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(245,'Sarika','20-mar-1996','MANALI','BANGLORE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(246,'Satya','24-jun-1993','GUWAHATI','OOTY','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(247,'Saumya','04-oct-1993','AHEMDABAD','MYSORE','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(248,'Shaniya','07-jan-1990','SURAT','SHIMLA','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(249,'Shaurya','19-jan-1998','PANAJI','MANALI','FEMALE');
+
+1 row created.
+
+SQL> insert into info values(250,'Shivani','25-jan-1999','UJJAIN','GUWAHATI','FEMALE');
+
+1 row created.
+
+SQL>
+SQL> set linesize 200;
+SQL> select * from info;
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       101 Aaditya              27-JAN-94 BUNDI                KOLKATA              MALE
+       106 Akshay               14-AUG-97 DELHI                DELHI                MALE
+       102 Aarav                13-MAY-93 KOTA                 KOTA                 MALE
+       103 Ajay                 05-FEB-91 BARAN                BARAN                MALE
+       104 Akash                09-MAR-94 JHALAWAR             JHALAWAR             MALE
+       105 Akhil                26-MAR-93 INDORE               INDORE               MALE
+       107 Anand                26-APR-99 MUMBAI               MUMBAI               MALE
+       108 Anil                 28-DEC-96 CHENNAI              CHENNAI              MALE
+       109 Ari                  27-NOV-99 KOLKATA              KOLKATA              MALE
+       110 Arian                11-NOV-90 GUWAHATI             GUWAHATI             MALE
+       111 Arjun                14-JUN-95 MUMBAI               JAIPUR               MALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       112 Armaan               02-NOV-95 CHENNAI              KOTA                 MALE
+       113 Arun                 27-JUL-91 KOLKATA              BARAN                MALE
+       114 Aum                  19-JAN-90 KOTA                 JHALAWAR             MALE
+       115 Avi                  08-AUG-94 BARAN                INDORE               MALE
+       116 Ayaan                04-MAR-96 JHALAWAR             DELHI                MALE
+       117 Bodhi                28-AUG-92 INDORE               MATHURA              MALE
+       118 Daksh                16-MAY-93 DELHI                AGRA                 MALE
+       119 Dev                  15-FEB-94 MUMBAI               AGRA                 MALE
+       120 Eshaan               14-NOV-92 CHENNAI              GAYA                 MALE
+       121 Ishan                21-MAR-91 KOLKATA              PATNA                MALE
+       122 Jahan                03-APR-95 GUWAHATI             CHATTISGARH          MALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       123 Jaiden               29-SEP-90 JAIPUR               KOTA                 MALE
+       124 Jay                  17-JUN-92 KOTA                 KOTA                 MALE
+       125 Jiyan                20-MAY-91 BARAN                BUNDI                MALE
+       126 Kabir                16-JAN-93 JHALAWAR             DELHI                MALE
+       127 Kahan                04-AUG-99 INDORE               CHANDIGARH           MALE
+       128 Kailash              30-AUG-97 DELHI                BHILWARA             MALE
+       129 Kaiyen               06-MAY-97 MATHURA              UDAIPUR              MALE
+       130 Kalpen               12-JAN-90 AGRA                 NOIDA                MALE
+       131 Karam                16-AUG-96 AGRA                 JHALANDAR            MALE
+       132 Karthik              09-MAY-90 GAYA                 AMRITSAR             MALE
+       133 Kavish               20-SEP-94 PATNA                BANGLORE             MALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       134 Kiaan                14-JUN-98 CHATTISGARH          OOTY                 MALE
+       135 Krish                28-JAN-98 KOTA                 MYSORE               MALE
+       136 Kriyan               16-AUG-90 KOTA                 SHIMLA               MALE
+       137 Laksh                09-JAN-97 BUNDI                MANALI               MALE
+       138 Manav                15-MAR-92 DELHI                GUWAHATI             MALE
+       139 Milan                26-JAN-94 CHANDIGARH           AHEMDABAD            MALE
+       140 Mivan                02-JAN-99 BHILWARA             SURAT                MALE
+       141 Mohan                04-JAN-92 UDAIPUR              PANAJI               MALE
+       142 Moksh                28-JUL-91 NOIDA                UJJAIN               MALE
+       143 Nayan                16-MAR-97 JHALANDAR            HYDERABAD            MALE
+       144 Neeraj               15-DEC-90 AMRITSAR             CHANDIGARH           MALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       145 Nikhil               25-MAR-97 BANGLORE             BHILWARA             MALE
+       146 Nirmay               06-NOV-95 OOTY                 UDAIPUR              MALE
+       147 Nishan               15-SEP-94 MYSORE               NOIDA                MALE
+       148 Nitin                12-JAN-90 SHIMLA               JHALANDAR            MALE
+       149 Niyam                08-SEP-91 MANALI               AMRITSAR             MALE
+       150 Ohm                  02-DEC-91 GUWAHATI             BANGLORE             MALE
+       151 Ovi                  21-APR-92 AHEMDABAD            OOTY                 MALE
+       152 Parth                16-MAY-98 SURAT                MYSORE               MALE
+       153 Pavan                22-JUL-92 PANAJI               SHIMLA               MALE
+       154 Priyam               23-DEC-90 UJJAIN               MANALI               MALE
+       155 Rajiv                18-SEP-90 HYDERABAD            GUWAHATI             MALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       156 Rajveer              14-SEP-97 CHANDIGARH           AHEMDABAD            MALE
+       157 Revan                07-JUL-91 BHILWARA             SURAT                MALE
+       158 Ridhan               09-MAY-91 UDAIPUR              PANAJI               MALE
+       159 Rishi                09-SEP-90 NOIDA                UJJAIN               MALE
+       160 Rithvik              27-MAY-94 JHALANDAR            HYDERABAD            MALE
+       161 Riyan                24-JUN-93 AMRITSAR             CHITTORGARH          MALE
+       162 Rohan                26-FEB-95 BANGLORE             JODHPUR              MALE
+       163 Rudra                25-AUG-93 OOTY                 JAISALMER            MALE
+       164 Sachin               16-APR-99 MYSORE               RANTHAMBORE          MALE
+       165 Sahil                13-JAN-99 SHIMLA               PUSHKAR              MALE
+       166 Sai                  19-MAY-93 MANALI               AJMER                MALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       167 Sajan                05-JUN-99 GUWAHATI             SAWAI MADHOPUR       MALE
+       168 Samardh              10-JUL-98 AHEMDABAD            KOLKATA              MALE
+       169 Samay                19-FEB-99 SURAT                KOTA                 MALE
+       170 Sanjay               15-AUG-97 PANAJI               BARAN                MALE
+       171 Sayan                11-SEP-92 UJJAIN               JHALAWAR             MALE
+       172 Shaan                25-JUL-96 HYDERABAD            INDORE               MALE
+       173 Shikhar              11-JUN-92 CHITTORGARH          DELHI                MALE
+       174 Siddh                18-APR-99 JODHPUR              MUMBAI               MALE
+       175 Sohum                27-SEP-90 JAISALMER            CHENNAI              MALE
+       176 Tej                  17-JUL-92 RANTHAMBORE          KOLKATA              MALE
+       177 Vardan               23-NOV-96 PUSHKAR              GUWAHATI             MALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       178 Veer                 24-DEC-98 AJMER                JAIPUR               MALE
+       179 Vihan                17-MAR-95 SAWAI MADHOPUR       KOTA                 MALE
+       180 Vikram               07-JUL-97 MOUNT ABU            BARAN                MALE
+       181 Vimal                03-FEB-97 ALWAR                JHALAWAR             MALE
+       182 Viraj                17-JAN-95 SIKAR                INDORE               MALE
+       183 Yash                 10-JAN-99 CHURU                DELHI                MALE
+       184 Zayn                 30-SEP-92 KISHANGARH           MATHURA              MALE
+       185 Zian                 04-OCT-94 SHIRPUR              AGRA                 MALE
+       186 Aadhavi              20-AUG-96 BARMER               AGRA                 FEMALE
+       187 Aanya                26-FEB-97 DHULE                GAYA                 FEMALE
+       188 Aarya                17-DEC-90 BHOPAL               PATNA                FEMALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       189 Aashvi               03-FEB-92 NAGADA               CHATTISGARH          FEMALE
+       190 Alani                10-SEP-92 BEGUSARAI            KOTA                 FEMALE
+       191 Amara                12-OCT-96 NAGORE               KOTA                 FEMALE
+       192 Amulya               31-MAR-98 TONK                 BUNDI                FEMALE
+       193 Aniya                14-AUG-98 JAIPUR               DELHI                FEMALE
+       194 Anushka              25-FEB-95 DEOLI                CHANDIGARH           FEMALE
+       195 Aria                 04-NOV-97 BUNDI                BHILWARA             FEMALE
+       196 Ayla                 19-JUL-95 CHIPABADOD           UDAIPUR              FEMALE
+       197 Devina               09-JAN-92 KANPUR               NOIDA                FEMALE
+       198 Divya                13-FEB-90 JAIPUR               JHALANDAR            FEMALE
+       199 Eesha                13-DEC-98 VARANASI             AMRITSAR             FEMALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       200 Farida               03-NOV-92 SITAPUR              BANGLORE             FEMALE
+       201 Imara                29-AUG-95 TONK                 OOTY                 FEMALE
+       202 Jasmine              25-JUL-92 CHIPABADOD           MYSORE               FEMALE
+       203 Jaya                 10-SEP-95 BARELI               SHIMLA               FEMALE
+       204 Jhansi               22-AUG-99 TONK                 MANALI               FEMALE
+       205 Jivika               18-AUG-92 DEOLI                GUWAHATI             FEMALE
+       206 Jiyana               06-FEB-98 CHANDIGARH           AHEMDABAD            FEMALE
+       207 Kareena              04-DEC-97 BHILWARA             SURAT                FEMALE
+       208 Kavya                08-FEB-90 UDAIPUR              PANAJI               FEMALE
+       209 Khushi               19-JAN-96 NOIDA                UJJAIN               FEMALE
+       210 Kimaya               10-SEP-97 JHALANDAR            HYDERABAD            FEMALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       211 Kiyana               22-OCT-90 AMRITSAR             CHANDIGARH           FEMALE
+       212 Lakshmi              05-AUG-91 BANGLORE             BHILWARA             FEMALE
+       213 Lavanya              05-FEB-94 OOTY                 UDAIPUR              FEMALE
+       214 Liya                 31-AUG-92 MYSORE               NOIDA                FEMALE
+       215 Mahi                 12-JUL-90 SHIMLA               JHALANDAR            FEMALE
+       216 Maya                 11-JAN-91 MANALI               AMRITSAR             FEMALE
+       217 Meera                28-JAN-97 GUWAHATI             BANGLORE             FEMALE
+       218 Mila                 04-JUL-94 AHEMDABAD            OOTY                 FEMALE
+       219 Mirza                07-SEP-94 SURAT                MYSORE               FEMALE
+       220 Misha                06-APR-99 PANAJI               SHIMLA               FEMALE
+       221 Myra                 24-FEB-90 UJJAIN               MANALI               FEMALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       222 Navi                 27-JUN-94 HYDERABAD            GUWAHATI             FEMALE
+       223 Navya                06-DEC-98 RANTHAMBORE          AHEMDABAD            FEMALE
+       224 Nevaeh               20-NOV-90 PUSHKAR              SURAT                FEMALE
+       225 Nidhi                21-MAR-95 AJMER                PANAJI               FEMALE
+       226 Nihira               21-NOV-96 SAWAI MADHOPUR       UJJAIN               FEMALE
+       227 Nila                 24-JUN-99 MOUNT ABU            HYDERABAD            FEMALE
+       228 Nirvi                16-AUG-97 ALWAR                CHITTORGARH          FEMALE
+       229 Nisha                29-MAR-97 SIKAR                JODHPUR              FEMALE
+       230 Nyra                 08-DEC-94 CHURU                JAISALMER            FEMALE
+       231 Prisha               10-APR-98 KISHANGARH           RANTHAMBORE          FEMALE
+       232 Pritha               28-DEC-99 SHIRPUR              PUSHKAR              FEMALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       233 Priya                04-JUN-92 BARMER               AJMER                FEMALE
+       234 Rahi                 19-OCT-94 DHULE                SAWAI MADHOPUR       FEMALE
+       235 Ranchi               07-SEP-97 BHOPAL               KISHANGARH           FEMALE
+       236 Ria                  17-JUN-99 NAGADA               SHIRPUR              FEMALE
+       237 Roja                 12-AUG-99 BEGUSARAI            BARMER               FEMALE
+       238 Ruhi                 25-JUL-93 NAGORE               DHULE                FEMALE
+       239 Saanvi               01-DEC-91 JHALANDAR            BHOPAL               FEMALE
+       240 Sahara               17-AUG-96 AMRITSAR             NAGADA               FEMALE
+       241 Saiya                09-DEC-99 BANGLORE             BEGUSARAI            FEMALE
+       242 Sajani               30-AUG-90 OOTY                 NAGORE               FEMALE
+       243 Samara               02-JUN-95 MYSORE               JHALANDAR            FEMALE
+
+    USERID NAME                 DOB       BIRTH_PLACE          CURRENT_PLACE        GENDER
+---------- -------------------- --------- -------------------- -------------------- ----------
+       244 Sana                 29-OCT-99 SHIMLA               AMRITSAR             FEMALE
+       245 Sarika               20-MAR-96 MANALI               BANGLORE             FEMALE
+       246 Satya                24-JUN-93 GUWAHATI             OOTY                 FEMALE
+       247 Saumya               04-OCT-93 AHEMDABAD            MYSORE               FEMALE
+       248 Shaniya              07-JAN-90 SURAT                SHIMLA               FEMALE
+       249 Shaurya              19-JAN-98 PANAJI               MANALI               FEMALE
+       250 Shivani              25-JAN-99 UJJAIN               GUWAHATI             FEMALE
+
+150 rows selected.
+
+SQL> commit;
+
+Commit complete.
+
+SQL>
